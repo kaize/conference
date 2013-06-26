@@ -16,7 +16,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-# gem 'therubyracer', platforms: :ruby
+gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -26,6 +26,26 @@ gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
+
+gem 'unicorn-rails'
+gem 'airbrake'
+
+gem 'pg'
+gem 'haml-rails'
+gem 'twitter-bootstrap-rails'
+gem "less-rails"
+
+group :development do
+  gem 'guard-minitest'
+  gem 'guard-bundler'
+  gem 'untranslated'
+
+  gem 'capistrano'
+  gem 'rvm-capistrano'
+  gem 'capistrano-ext'
+  gem 'capi'
+  gem 'capistrano-unicorn'
+end
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
