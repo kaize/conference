@@ -41,8 +41,16 @@ group :development do
   gem 'untranslated'
 end
 
+group :test do
+  gem 'rake'
+  gem 'coveralls', require: false
+end
+
+group :development, :test do
+  gem 'minitest'
+end
+
 group :doc do
-  # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
 end
 
