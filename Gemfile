@@ -39,12 +39,6 @@ group :development do
   gem 'guard-minitest'
   gem 'guard-bundler'
   gem 'untranslated'
-
-  gem 'capistrano'
-  gem 'rvm-capistrano'
-  gem 'capistrano-ext'
-  gem 'capi'
-  gem 'capistrano-unicorn'
 end
 
 group :doc do
@@ -55,11 +49,8 @@ end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
-# Use unicorn as the app server
 # gem 'unicorn'
 
-# Use Capistrano for deployment
-# gem 'capistrano', group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
