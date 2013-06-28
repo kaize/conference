@@ -1,0 +1,95 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+APP_PATH	/Users/alegch/projects/progul/bin/rails	/^APP_PATH = File.expand_path('..\/..\/config\/application',  __FILE__)$/;"	c
+APP_PATH	/Users/alegch/projects/progul/config/unicorn.rb	/^APP_PATH = "\/"$/;"	c
+APP_PATH	/Users/alegch/projects/progul/config/unicorn/production.rb	/^APP_PATH = "\/"$/;"	c
+APP_PATH	/Users/alegch/projects/progul/config/unicorn/staging.rb	/^APP_PATH = "\/"$/;"	c
+ActiveSupport	/Users/alegch/projects/progul/test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+AddAdminToUser	/Users/alegch/projects/progul/db/migrate/20130627094819_add_admin_to_user.rb	/^class AddAdminToUser < ActiveRecord::Migration$/;"	c
+AllFiles	/Users/alegch/projects/progul/coverage/index.html	/^  <a name="AllFiles"><\/a>$/;"	a
+Application	/Users/alegch/projects/progul/config/application.rb	/^  class Application < Rails::Application$/;"	c	class:Progul
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:Progul
+ApplicationController	/Users/alegch/projects/progul/app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	/Users/alegch/projects/progul/app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+AuthHelper	/Users/alegch/projects/progul/lib/helpers/auth_helper.rb	/^module AuthHelper$/;"	m
+AuthHelper	lib/helpers/auth_helper.rb	/^module AuthHelper$/;"	m
+BaseTypeWithoutActiveRecord	/Users/alegch/projects/progul/app/types/base_type_without_active_record.rb	/^module BaseTypeWithoutActiveRecord$/;"	m
+BaseTypeWithoutActiveRecord	app/types/base_type_without_active_record.rb	/^module BaseTypeWithoutActiveRecord$/;"	m
+Controllers	/Users/alegch/projects/progul/coverage/index.html	/^  <a name="Controllers"><\/a>$/;"	a
+CreateUsers	/Users/alegch/projects/progul/db/migrate/20130627092839_create_users.rb	/^class CreateUsers < ActiveRecord::Migration$/;"	c
+FlashHelper	/Users/alegch/projects/progul/lib/helpers/flash_helper.rb	/^module FlashHelper$/;"	m
+Hall	app/models/hall.rb	/^class Hall < ActiveRecord::Base$/;"	c
+HallRepository	app/repositories/hall_repository.rb	/^module HallRepository$/;"	m
+Helpers	/Users/alegch/projects/progul/coverage/index.html	/^  <a name="Helpers"><\/a>$/;"	a
+Libraries	/Users/alegch/projects/progul/coverage/index.html	/^  <a name="Libraries"><\/a>$/;"	a
+Mailers	/Users/alegch/projects/progul/coverage/index.html	/^  <a name="Mailers"><\/a>$/;"	a
+Models	/Users/alegch/projects/progul/coverage/index.html	/^  <a name="Models"><\/a>$/;"	a
+Plugins	/Users/alegch/projects/progul/coverage/index.html	/^  <a name="Plugins"><\/a>$/;"	a
+Progul	/Users/alegch/projects/progul/config/application.rb	/^module Progul$/;"	m
+Progul	config/application.rb	/^module Progul$/;"	m
+Slot	app/models/slot.rb	/^class Slot < ActiveRecord::Base$/;"	c
+SlotRepository	app/repositories/slot_repository.rb	/^module SlotRepository$/;"	m
+User	/Users/alegch/projects/progul/app/models/user.rb	/^class User < ActiveRecord::Base$/;"	c
+User	app/models/user.rb	/^class User < ActiveRecord::Base$/;"	c
+UserRepository	/Users/alegch/projects/progul/app/repositories/user_repository.rb	/^module UserRepository$/;"	m
+UserRepository	app/repositories/user_repository.rb	/^module UserRepository$/;"	m
+UserSignInType	/Users/alegch/projects/progul/app/types/user_sign_in_type.rb	/^class UserSignInType$/;"	c
+UserSignInType	app/types/user_sign_in_type.rb	/^class UserSignInType$/;"	c
+UserTest	/Users/alegch/projects/progul/test/models/user_test.rb	/^class UserTest < ActiveSupport::TestCase$/;"	c
+Web	/Users/alegch/projects/progul/app/controllers/web/admin/application_controller.rb	/^class Web::Admin::ApplicationController < Web::ApplicationController$/;"	c
+Web	/Users/alegch/projects/progul/app/controllers/web/admin/welcome_controller.rb	/^class Web::Admin::WelcomeController < Web::Admin::ApplicationController$/;"	c
+Web	/Users/alegch/projects/progul/app/controllers/web/application_controller.rb	/^class Web::ApplicationController < ApplicationController$/;"	c
+Web	/Users/alegch/projects/progul/app/controllers/web/sessions_controller.rb	/^class Web::SessionsController < Web::ApplicationController$/;"	c
+Web	/Users/alegch/projects/progul/app/controllers/web/welcome_controller.rb	/^class Web::WelcomeController < Web::ApplicationController$/;"	c
+Web	/Users/alegch/projects/progul/app/helpers/web/admin/welcome_helper.rb	/^module Web::Admin::WelcomeHelper$/;"	m
+Web	/Users/alegch/projects/progul/app/helpers/web/sessions_helper.rb	/^module Web::SessionsHelper$/;"	m
+Web	/Users/alegch/projects/progul/test/controllers/web/admin/welcome_controller_test.rb	/^class Web::Admin::WelcomeControllerTest < ActionController::TestCase$/;"	c
+Web	/Users/alegch/projects/progul/test/controllers/web/sessions_controller_test.rb	/^class Web::SessionsControllerTest < ActionController::TestCase$/;"	c
+Web	/Users/alegch/projects/progul/test/controllers/web/welcome_controller_test.rb	/^class Web::WelcomeControllerTest < ActionController::TestCase$/;"	c
+Web	/Users/alegch/projects/progul/test/helpers/web/admin/welcome_helper_test.rb	/^class Web::Admin::WelcomeHelperTest < ActionView::TestCase$/;"	c
+Web	/Users/alegch/projects/progul/test/helpers/web/sessions_helper_test.rb	/^class Web::SessionsHelperTest < ActionView::TestCase$/;"	c
+Web	app/controllers/web/sessions_controller.rb	/^class Web::SessionsController < Web::ApplicationController$/;"	c
+Web	test/controllers/web/admin/welcome_controller_test.rb	/^class Web::Admin::WelcomeControllerTest < ActionController::TestCase$/;"	c
+Web	test/controllers/web/sessions_controller_test.rb	/^class Web::SessionsControllerTest < ActionController::TestCase$/;"	c
+Web	test/controllers/web/welcome_controller_test.rb	/^class Web::WelcomeControllerTest < ActionController::TestCase$/;"	c
+WelcomeHelperTest	/Users/alegch/projects/progul/test/helpers/welcome_helper_test.rb	/^class WelcomeHelperTest < ActionView::TestCase$/;"	c
+authenticate_admin!	/Users/alegch/projects/progul/lib/helpers/auth_helper.rb	/^  def authenticate_admin!$/;"	f	class:AuthHelper
+authenticate_admin!	lib/helpers/auth_helper.rb	/^  def authenticate_admin!$/;"	f	class:AuthHelper
+authenticate_user!	/Users/alegch/projects/progul/lib/helpers/auth_helper.rb	/^  def authenticate_user!$/;"	f	class:AuthHelper
+authenticate_user!	lib/helpers/auth_helper.rb	/^  def authenticate_user!$/;"	f	class:AuthHelper
+change	/Users/alegch/projects/progul/db/migrate/20130627092839_create_users.rb	/^  def change$/;"	f	class:CreateUsers
+change	/Users/alegch/projects/progul/db/migrate/20130627094819_add_admin_to_user.rb	/^  def change$/;"	f	class:AddAdminToUser
+check_authenticate	/Users/alegch/projects/progul/app/types/user_sign_in_type.rb	/^  def check_authenticate$/;"	f	class:UserSignInType
+check_authenticate	app/types/user_sign_in_type.rb	/^  def check_authenticate$/;"	f	class:UserSignInType
+create	/Users/alegch/projects/progul/app/controllers/web/sessions_controller.rb	/^  def create$/;"	f	class:Web
+create	app/controllers/web/sessions_controller.rb	/^  def create$/;"	f	class:Web
+current_user	/Users/alegch/projects/progul/lib/helpers/auth_helper.rb	/^  def current_user$/;"	f	class:AuthHelper
+current_user	lib/helpers/auth_helper.rb	/^  def current_user$/;"	f	class:AuthHelper
+destroy	/Users/alegch/projects/progul/app/controllers/web/sessions_controller.rb	/^  def destroy$/;"	f	class:Web
+destroy	app/controllers/web/sessions_controller.rb	/^  def destroy$/;"	f	class:Web
+f	/Users/alegch/projects/progul/lib/helpers/flash_helper.rb	/^  def f(key, options = {})$/;"	f	class:FlashHelper
+hall	app/models/slot.rb	/^  belongs_to :hall$/;"	f
+index	/Users/alegch/projects/progul/app/controllers/web/admin/welcome_controller.rb	/^  def index$/;"	f	class:Web
+index	/Users/alegch/projects/progul/app/controllers/web/welcome_controller.rb	/^  def index$/;"	f	class:Web
+new	/Users/alegch/projects/progul/app/controllers/web/sessions_controller.rb	/^  def new$/;"	f	class:Web
+new	app/controllers/web/sessions_controller.rb	/^  def new$/;"	f	class:Web
+persisted?	/Users/alegch/projects/progul/app/types/base_type_without_active_record.rb	/^  def persisted?$/;"	f	class:BaseTypeWithoutActiveRecord
+persisted?	app/types/base_type_without_active_record.rb	/^  def persisted?$/;"	f	class:BaseTypeWithoutActiveRecord
+sign_in	/Users/alegch/projects/progul/lib/helpers/auth_helper.rb	/^  def sign_in(user)$/;"	f	class:AuthHelper
+sign_in	lib/helpers/auth_helper.rb	/^  def sign_in(user)$/;"	f	class:AuthHelper
+sign_out	/Users/alegch/projects/progul/lib/helpers/auth_helper.rb	/^  def sign_out$/;"	f	class:AuthHelper
+sign_out	lib/helpers/auth_helper.rb	/^  def sign_out$/;"	f	class:AuthHelper
+signed_as_admin?	/Users/alegch/projects/progul/lib/helpers/auth_helper.rb	/^  def signed_as_admin?$/;"	f	class:AuthHelper
+signed_as_admin?	lib/helpers/auth_helper.rb	/^  def signed_as_admin?$/;"	f	class:AuthHelper
+signed_in?	/Users/alegch/projects/progul/lib/helpers/auth_helper.rb	/^  def signed_in?$/;"	f	class:AuthHelper
+signed_in?	lib/helpers/auth_helper.rb	/^  def signed_in?$/;"	f	class:AuthHelper
+slots	app/models/hall.rb	/^  has_many :slots$/;"	f
+user	/Users/alegch/projects/progul/app/types/user_sign_in_type.rb	/^  def user$/;"	f	class:UserSignInType
+user	app/types/user_sign_in_type.rb	/^  def user$/;"	f	class:UserSignInType
+web	app/repositories/hall_repository.rb	/^    scope :web, -> { asc_by_created_at }$/;"	f
+web	app/repositories/slot_repository.rb	/^    scope :web, ->{ asc_by_start_time }$/;"	f
