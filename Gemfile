@@ -41,7 +41,6 @@ gem 'term-ansicolor'
 gem 'russian'
 
 group :development do
-  gem 'sqlite3'
   gem 'guard-minitest'
   gem 'guard-bundler'
   gem 'untranslated'

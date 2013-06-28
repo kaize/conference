@@ -1,17 +1,29 @@
 development:
-  adapter: sqlite3
-  database: db/development.sqlite3
+  adapter: postgresql
+  database: progul_development
+  encoding: unicode
+  template: template0
   pool: 5
   timeout: 5000
+  username: postgres
+  password: postgres
 
 test:
-  adapter: sqlite3
-  database: db/test.sqlite3
+  adapter: postgresql
+  database: progul_development
+  encoding: unicode
+  template: template0
   pool: 5
   timeout: 5000
+  username: postgres
+  password: postgres
 
 production:
-  adapter: sqlite3
-  database: db/production.sqlite3
+  adapter: postgresql
+  database: progul_development
+  encoding: unicode
+  template: template0
   pool: 5
   timeout: 5000
+  username: postgres
+  password: postgres
