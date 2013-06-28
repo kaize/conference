@@ -34,6 +34,13 @@ gem 'pg'
 gem 'haml-rails'
 gem 'twitter-bootstrap-rails'
 gem "less-rails"
+gem 'validates'
+gem 'state_machine'
+gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'simple_form'
+gem 'virtus'
+gem 'term-ansicolor'
+gem 'russian'
 
 group :development do
   gem 'guard-minitest'
@@ -48,17 +55,12 @@ end
 
 group :development, :test do
   gem 'minitest'
+  gem 'factory_girl_rails'
 end
 
 group :doc do
   gem 'sdoc', require: false
 end
-
-# Use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
-
-# gem 'unicorn'
-
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]

@@ -1,0 +1,8 @@
+---
+en:
+  success: ''
+  helpers:
+    web:
+      sign_in_info:
+        logged_as: ''
+        logout: ''

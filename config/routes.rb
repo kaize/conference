@@ -1,6 +1,12 @@
 Progul::Application.routes.draw do
+  get "welcome/index"
   scope module: :web do
     root 'welcome#index'
+    resource :session, only: [:new, :create, :destroy]
+
+    namespace :admin do
+      root 'welcome#index'
+    end
   end
 
   # Example of regular route:
