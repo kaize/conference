@@ -1,0 +1,12 @@
+ru:
+  activerecord:
+    models:
+      hall: 'Зал'
+      slot: 'Слот'
+  attributes:
+    hall:
+      name: 'Название'
+    slot:
+      start_time: 'Время начала'
+      finish_time: 'Время конца'
+

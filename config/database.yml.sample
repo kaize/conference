@@ -10,7 +10,7 @@ development:
 
 test:
   adapter: postgresql
-  database: progul_development
+  database: progul_test
   encoding: unicode
   template: template0
   pool: 5
@@ -20,7 +20,7 @@ test:
 
 production:
   adapter: postgresql
-  database: progul_development
+  database: progul_production
   encoding: unicode
   template: template0
   pool: 5

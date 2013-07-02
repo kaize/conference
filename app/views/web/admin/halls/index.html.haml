@@ -1,0 +1,29 @@
+.page-header
+  %h1= t '.title'
+
+.row
+  .span4
+    = link_to t('helpers.titles.new'), new_admin_hall_path, class: 'btn btn-primary'
+
+%br
+
+%table.table.table-striped
+  %thead
+    %tr
+      %th
+      %th= Hall.human_attribute_name :name
+      %th= t(".count_slots")
+  %tbody
+    - @halls.each do |hall|
+      %tr{ data: { id: hall.id } }
+        %td= link_to hall.name, edit_admin_hall_path(hall)
+        %td= hall.slots.count
+        %td
+          .nowrap= l hall.created_at
+        %td
+          .pull-right.btn-group
+            = link_to edit_admin_hall_path(hall), class: 'btn btn-mini' do
+              %i.icon-pencil
+            = link_to admin_hall_path(hall), class: 'btn btn-mini', method: :delete do
+              %i.icon-trash
+

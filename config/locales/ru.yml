@@ -1,18 +1,27 @@
 ru:
-  success: 'Вы успешно авторизировлись'
-  helpers:
-    web:
-      sign_in_info:
-        logged_as: 'Вы вошли как'
-        logout: 'Выйти'
-        login: 'Войти'
-  flash:
-    web:
-      sessions:
-        destroy:
-          success: 'Вы успешно вышли'
-        create:
-          success: 'Вы успешно зашли'
+  time:
+    formats:
+      default: "%d-%m-%Y %H:%M"
+      admin_date_time_picker: "%Y-%m-%d %H:%M:%S"
+      minutes: "%M"
+  web:
+    admin:
+      halls:
+        new:
+          title: 'Новый зал'
+        index:
+          title: 'Залы'
+          new: 'Новый'
+          count_slots: 'Количество слотов'
+        form:
+          timeslots: 'Таймслоты'
+          add_slot: 'Добавить слот'
+          cancel: 'Отмена'
+        slot_fields:
+          time_from_till: 'Промежутки времени'
+          delete: 'Удалить'
+        edit:
+          title: 'Редактировать слот'
   activemodel:
     errors:
       models:

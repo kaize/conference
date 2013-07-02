@@ -1,0 +1,14 @@
+ru:
+  flash:
+    web:
+      admin:
+        halls:
+          create:
+            success: "Успешно создан"
+          update:
+            success: "Успешно обновлен"
+      sessions:
+        destroy:
+          success: 'Вы успешно вышли'
+        create:
+          success: 'Вы успешно зашли'

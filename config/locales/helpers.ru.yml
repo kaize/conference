@@ -1,0 +1,10 @@
+ru:
+  helpers:
+    web:
+      sign_in_info:
+        logged_as: 'Вы вошли как %{name}'
+        logout: 'Выйти'
+        login: 'Войти'
+      admin:
+        admin_menu:
+          halls: 'Залы'

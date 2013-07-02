@@ -12,14 +12,14 @@
 /db/*.sqlite3-journal
 
 /config/database.yml
-
+.DS_Store
 
 /public/uploads/
 /public/system/uploads/
 
 /public/system/*
 /coverage
-
+tags
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
