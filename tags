@@ -28,8 +28,8 @@ Controllers	/Users/alegch/projects/progul/coverage/index.html	/^  <a name="Contr
 CreateHalls	db/migrate/20130628110510_create_halls.rb	/^class CreateHalls < ActiveRecord::Migration$/;"	c
 CreateSlots	db/migrate/20130628112425_create_slots.rb	/^class CreateSlots < ActiveRecord::Migration$/;"	c
 CreateUsers	/Users/alegch/projects/progul/db/migrate/20130627092839_create_users.rb	/^class CreateUsers < ActiveRecord::Migration$/;"	c
-DateTimeInput	app/inputs/date_time_picker_input.rb	/^class DateTimeInput < SimpleForm::Inputs::DateTimeInput$/;"	c
 DateTimePickerInput	app/inputs/date_time_picker.rb	/^class DateTimePickerInput < SimpleForm::Inputs::Base$/;"	c
+DateTimePickerInput	app/inputs/date_time_picker_input.rb	/^class DateTimePickerInput < SimpleForm::Inputs::Base$/;"	c
 FlashHelper	/Users/alegch/projects/progul/lib/helpers/flash_helper.rb	/^module FlashHelper$/;"	m
 Hall	app/models/hall.rb	/^class Hall < ActiveRecord::Base$/;"	c
 HallRepository	app/repositories/hall_repository.rb	/^module HallRepository$/;"	m
@@ -99,7 +99,7 @@ index	/Users/alegch/projects/progul/app/controllers/web/welcome_controller.rb	/^
 index	app/controllers/web/admin/halls_controller.rb	/^  def index$/;"	f	class:Web
 input	app/inputs/base_picker.rb	/^  def input$/;"	f	class:BasePicker
 input	app/inputs/date_time_picker.rb	/^  def input$/;"	f	class:DateTimePickerInput
-input	app/inputs/date_time_picker_input.rb	/^  def input$/;"	f	class:DateTimeInput
+input	app/inputs/date_time_picker_input.rb	/^  def input$/;"	f	class:DateTimePickerInput
 model_name	app/types/base_type.rb	/^    def model_name$/;"	f	class:BaseType.ClassMethods
 name	app/types/base_type.rb	/^    def name$/;"	f	class:BaseType.ClassMethods
 new	/Users/alegch/projects/progul/app/controllers/web/sessions_controller.rb	/^  def new$/;"	f	class:Web

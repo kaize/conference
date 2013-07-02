@@ -12,7 +12,7 @@
 /db/*.sqlite3-journal
 
 /config/database.yml
-
+.DS_Store
 
 /public/uploads/
 /public/system/uploads/

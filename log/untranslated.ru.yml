@@ -1,8 +1,6 @@
 ---
 ru:
-  web:
-    admin:
-      halls:
-        edit:
-          title: ''
-  success: ''
+  helpers:
+    web:
+      sign_in_info:
+        login: ''
