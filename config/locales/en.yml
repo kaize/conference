@@ -3,7 +3,7 @@ en:
   helpers:
     web:
       sign_in_info:
-        logged_as: 'You logged as'
+        logged_as: 'You logged as %{name}'
         logout: 'Sign out'
         login: 'Sign in'
   flash:

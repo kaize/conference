@@ -1,4 +1,9 @@
 ru:
+  time:
+    formats:
+      default: "%d-%m-%Y %H:%M"
+      admin_date_time_picker: "%Y-%m-%d %H:%M:%S"
+      minutes: "%M"
   web:
     admin:
       halls:
@@ -17,20 +22,6 @@ ru:
           delete: 'Удалить'
         edit:
           title: 'Редактировать слот'
-  success: 'Успешно'
-
-  time:
-    formats:
-      default: "%d-%m-%Y %H:%M"
-      admin_date_time_picker: "%Y-%m-%d %H:%M:%S"
-      minutes: "%M"
-  success: 'Вы успешно авторизировлись'
-  helpers:
-    web:
-      sign_in_info:
-        logged_as: 'Вы вошли как'
-        logout: 'Выйти'
-        login: 'Войти'
   activemodel:
     errors:
       models:

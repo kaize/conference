@@ -6,3 +6,10 @@ ru:
       defaults:
         email: 'Email'
         password: 'Пароль'
+      user_sign_in_type:
+        email: 'Email'
+        password: 'Пароль'
+  helpers:
+    submit:
+      user_sign_in_type:
+        create: "Войти"
