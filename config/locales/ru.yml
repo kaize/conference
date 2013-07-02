@@ -1,4 +1,24 @@
 ru:
+  web:
+    admin:
+      halls:
+        new:
+          title: 'Новый зал'
+        index:
+          title: 'Залы'
+          new: 'Новый'
+          count_slots: 'Количество слотов'
+        form:
+          timeslots: 'Таймслоты'
+          add_slot: 'Добавить слот'
+          cancel: 'Отмена'
+        slot_fields:
+          time_from_till: 'Промежутки времени'
+          delete: 'Удалить'
+        edit:
+          title: 'Редактировать слот'
+  success: 'Успешно'
+
   time:
     formats:
       default: "%d-%m-%Y %H:%M"
@@ -11,13 +31,6 @@ ru:
         logged_as: 'Вы вошли как'
         logout: 'Выйти'
         login: 'Войти'
-  flash:
-    web:
-      sessions:
-        destroy:
-          success: 'Вы успешно вышли'
-        create:
-          success: 'Вы успешно зашли'
   activemodel:
     errors:
       models:

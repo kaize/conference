@@ -3,12 +3,6 @@ ru:
   web:
     admin:
       halls:
-        new:
+        edit:
           title: ''
-        form:
-          timeslots: ''
-          add_slot: ''
-          cancel: ''
-        slot_fields:
-          time_from_till: ''
-          delete: ''
+  success: ''
