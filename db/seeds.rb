@@ -1,10 +1,10 @@
-admin = User.find_or_initialize_by(email: "admin@undev.home")
-admin.password = 123456
-admin.password_confirmation = 123456
+admin = User.find_or_initialize_by(email: ENV[:admin_email])
+admin.password = ENV[:admin_password]
+admin.password_confirmation = ENV[:admin_password]
 admin.admin = true
 admin.save!
 
-user = User.find_or_initialize_by(email: "user@undev.home")
-user.password = 123456
-user.password_confirmation = 123456
+user = User.find_or_initialize_by(email: ENV[:user_email])
+user.password = ENV[:user_password]
+user.password_confirmation = ENV[:user_password]
 user.save!
