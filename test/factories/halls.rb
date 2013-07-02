@@ -2,6 +2,6 @@
 
 FactoryGirl.define do
   factory :hall do
-    title "MyString"
+    name { generate :string }
   end
 end

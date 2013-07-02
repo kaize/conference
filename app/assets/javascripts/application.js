@@ -14,4 +14,6 @@
 //= require jquery_ujs
 //= require twitter/bootstrap
 //= require turbolinks
+//= require bootstrap-datetimepicker.min
+//= require cocoon
 //= require_tree .

@@ -1,10 +1,21 @@
 ---
 ru:
+  web:
+    admin:
+      halls:
+        index:
+          title: ''
+          new: ''
+          count_slots: ''
+        new:
+          title: ''
+        form:
+          timeslots: ''
+          add_slot: ''
+          cancel: ''
+        slot_fields:
+          time_from_till: ''
+          delete: ''
+        edit:
+          title: ''
   success: ''
-  activemodel:
-    errors:
-      models:
-        user_sign_in_type:
-          attributes:
-            password:
-              user_or_password_invalid: ''

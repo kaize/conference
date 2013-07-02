@@ -6,6 +6,7 @@ Progul::Application.routes.draw do
 
     namespace :admin do
       root 'welcome#index'
+      resources :halls
     end
   end
 

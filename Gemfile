@@ -28,6 +28,7 @@ gem 'jbuilder', '~> 1.2'
 
 gem 'unicorn-rails'
 gem 'airbrake'
+gem 'usefull_scopes'
 
 gem 'pg'
 gem 'haml-rails'
@@ -40,6 +41,7 @@ gem 'simple_form'
 gem 'virtus'
 gem 'term-ansicolor'
 gem 'russian'
+gem 'cocoon', :git => 'git://github.com/nathanvda/cocoon'
 
 group :development do
   gem 'guard-minitest'

@@ -15,16 +15,25 @@ AllFiles	/Users/alegch/projects/progul/coverage/index.html	/^  <a name="AllFiles
 Application	/Users/alegch/projects/progul/config/application.rb	/^  class Application < Rails::Application$/;"	c	class:Progul
 Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:Progul
 ApplicationController	/Users/alegch/projects/progul/app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
 ApplicationHelper	/Users/alegch/projects/progul/app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
 AuthHelper	/Users/alegch/projects/progul/lib/helpers/auth_helper.rb	/^module AuthHelper$/;"	m
 AuthHelper	lib/helpers/auth_helper.rb	/^module AuthHelper$/;"	m
+BaseType	app/types/base_type.rb	/^module BaseType$/;"	m
 BaseTypeWithoutActiveRecord	/Users/alegch/projects/progul/app/types/base_type_without_active_record.rb	/^module BaseTypeWithoutActiveRecord$/;"	m
 BaseTypeWithoutActiveRecord	app/types/base_type_without_active_record.rb	/^module BaseTypeWithoutActiveRecord$/;"	m
+ClassMethods	app/types/base_type.rb	/^  module ClassMethods$/;"	m	class:BaseType
 Controllers	/Users/alegch/projects/progul/coverage/index.html	/^  <a name="Controllers"><\/a>$/;"	a
+CreateHalls	db/migrate/20130628110510_create_halls.rb	/^class CreateHalls < ActiveRecord::Migration$/;"	c
+CreateSlots	db/migrate/20130628112425_create_slots.rb	/^class CreateSlots < ActiveRecord::Migration$/;"	c
 CreateUsers	/Users/alegch/projects/progul/db/migrate/20130627092839_create_users.rb	/^class CreateUsers < ActiveRecord::Migration$/;"	c
+DateTimePickerInput	app/inputs/date_time_picker.rb	/^class DateTimePickerInput < SimpleForm::Inputs::Base$/;"	c
+DateTimePickerInput	app/inputs/date_time_picker_input.rb	/^class DateTimePickerInput < SimpleForm::Inputs::Base$/;"	c
 FlashHelper	/Users/alegch/projects/progul/lib/helpers/flash_helper.rb	/^module FlashHelper$/;"	m
 Hall	app/models/hall.rb	/^class Hall < ActiveRecord::Base$/;"	c
 HallRepository	app/repositories/hall_repository.rb	/^module HallRepository$/;"	m
+HallType	app/types/hall_type.rb	/^class HallType < Hall$/;"	c
+Hash	config/initializers/core_ext/hash.rb	/^class Hash$/;"	c
 Helpers	/Users/alegch/projects/progul/coverage/index.html	/^  <a name="Helpers"><\/a>$/;"	a
 Libraries	/Users/alegch/projects/progul/coverage/index.html	/^  <a name="Libraries"><\/a>$/;"	a
 Mailers	/Users/alegch/projects/progul/coverage/index.html	/^  <a name="Mailers"><\/a>$/;"	a
@@ -53,31 +62,48 @@ Web	/Users/alegch/projects/progul/test/controllers/web/sessions_controller_test.
 Web	/Users/alegch/projects/progul/test/controllers/web/welcome_controller_test.rb	/^class Web::WelcomeControllerTest < ActionController::TestCase$/;"	c
 Web	/Users/alegch/projects/progul/test/helpers/web/admin/welcome_helper_test.rb	/^class Web::Admin::WelcomeHelperTest < ActionView::TestCase$/;"	c
 Web	/Users/alegch/projects/progul/test/helpers/web/sessions_helper_test.rb	/^class Web::SessionsHelperTest < ActionView::TestCase$/;"	c
+Web	app/controllers/web/admin/halls_controller.rb	/^class Web::Admin::HallsController < ApplicationController$/;"	c
 Web	app/controllers/web/sessions_controller.rb	/^class Web::SessionsController < Web::ApplicationController$/;"	c
+Web	test/controllers/web/admin/halls_controller_test.rb	/^class Web::Admin::HallsControllerTest < ActionController::TestCase$/;"	c
 Web	test/controllers/web/admin/welcome_controller_test.rb	/^class Web::Admin::WelcomeControllerTest < ActionController::TestCase$/;"	c
 Web	test/controllers/web/sessions_controller_test.rb	/^class Web::SessionsControllerTest < ActionController::TestCase$/;"	c
 Web	test/controllers/web/welcome_controller_test.rb	/^class Web::WelcomeControllerTest < ActionController::TestCase$/;"	c
 WelcomeHelperTest	/Users/alegch/projects/progul/test/helpers/welcome_helper_test.rb	/^class WelcomeHelperTest < ActionView::TestCase$/;"	c
+_args	app/types/base_type.rb	/^    def _args$/;"	f	class:BaseType.ClassMethods
+assign_attributes	app/types/base_type.rb	/^  def assign_attributes(attrs = {})$/;"	f	class:BaseType
 authenticate_admin!	/Users/alegch/projects/progul/lib/helpers/auth_helper.rb	/^  def authenticate_admin!$/;"	f	class:AuthHelper
 authenticate_admin!	lib/helpers/auth_helper.rb	/^  def authenticate_admin!$/;"	f	class:AuthHelper
 authenticate_user!	/Users/alegch/projects/progul/lib/helpers/auth_helper.rb	/^  def authenticate_user!$/;"	f	class:AuthHelper
 authenticate_user!	lib/helpers/auth_helper.rb	/^  def authenticate_user!$/;"	f	class:AuthHelper
 change	/Users/alegch/projects/progul/db/migrate/20130627092839_create_users.rb	/^  def change$/;"	f	class:CreateUsers
 change	/Users/alegch/projects/progul/db/migrate/20130627094819_add_admin_to_user.rb	/^  def change$/;"	f	class:AddAdminToUser
+change	db/migrate/20130628110510_create_halls.rb	/^  def change$/;"	f	class:CreateHalls
+change	db/migrate/20130628112425_create_slots.rb	/^  def change$/;"	f	class:CreateSlots
 check_authenticate	/Users/alegch/projects/progul/app/types/user_sign_in_type.rb	/^  def check_authenticate$/;"	f	class:UserSignInType
 check_authenticate	app/types/user_sign_in_type.rb	/^  def check_authenticate$/;"	f	class:UserSignInType
 create	/Users/alegch/projects/progul/app/controllers/web/sessions_controller.rb	/^  def create$/;"	f	class:Web
+create	app/controllers/web/admin/halls_controller.rb	/^  def create$/;"	f	class:Web
 create	app/controllers/web/sessions_controller.rb	/^  def create$/;"	f	class:Web
 current_user	/Users/alegch/projects/progul/lib/helpers/auth_helper.rb	/^  def current_user$/;"	f	class:AuthHelper
 current_user	lib/helpers/auth_helper.rb	/^  def current_user$/;"	f	class:AuthHelper
 destroy	/Users/alegch/projects/progul/app/controllers/web/sessions_controller.rb	/^  def destroy$/;"	f	class:Web
+destroy	app/controllers/web/admin/halls_controller.rb	/^  def destroy$/;"	f	class:Web
 destroy	app/controllers/web/sessions_controller.rb	/^  def destroy$/;"	f	class:Web
+edit	app/controllers/web/admin/halls_controller.rb	/^  def edit$/;"	f	class:Web
+extract	config/initializers/core_ext/hash.rb	/^  def extract(*keys)$/;"	f	class:Hash
 f	/Users/alegch/projects/progul/lib/helpers/flash_helper.rb	/^  def f(key, options = {})$/;"	f	class:FlashHelper
 hall	app/models/slot.rb	/^  belongs_to :hall$/;"	f
 index	/Users/alegch/projects/progul/app/controllers/web/admin/welcome_controller.rb	/^  def index$/;"	f	class:Web
 index	/Users/alegch/projects/progul/app/controllers/web/welcome_controller.rb	/^  def index$/;"	f	class:Web
+index	app/controllers/web/admin/halls_controller.rb	/^  def index$/;"	f	class:Web
+input	app/inputs/date_time_picker.rb	/^  def input$/;"	f	class:DateTimePickerInput
+input	app/inputs/date_time_picker_input.rb	/^  def input$/;"	f	class:DateTimePickerInput
+model_name	app/types/base_type.rb	/^    def model_name$/;"	f	class:BaseType.ClassMethods
+name	app/types/base_type.rb	/^    def name$/;"	f	class:BaseType.ClassMethods
 new	/Users/alegch/projects/progul/app/controllers/web/sessions_controller.rb	/^  def new$/;"	f	class:Web
+new	app/controllers/web/admin/halls_controller.rb	/^  def new$/;"	f	class:Web
 new	app/controllers/web/sessions_controller.rb	/^  def new$/;"	f	class:Web
+permit	app/types/base_type.rb	/^    def permit(*args)$/;"	f	class:BaseType.ClassMethods
 persisted?	/Users/alegch/projects/progul/app/types/base_type_without_active_record.rb	/^  def persisted?$/;"	f	class:BaseTypeWithoutActiveRecord
 persisted?	app/types/base_type_without_active_record.rb	/^  def persisted?$/;"	f	class:BaseTypeWithoutActiveRecord
 sign_in	/Users/alegch/projects/progul/lib/helpers/auth_helper.rb	/^  def sign_in(user)$/;"	f	class:AuthHelper
@@ -88,7 +114,8 @@ signed_as_admin?	/Users/alegch/projects/progul/lib/helpers/auth_helper.rb	/^  de
 signed_as_admin?	lib/helpers/auth_helper.rb	/^  def signed_as_admin?$/;"	f	class:AuthHelper
 signed_in?	/Users/alegch/projects/progul/lib/helpers/auth_helper.rb	/^  def signed_in?$/;"	f	class:AuthHelper
 signed_in?	lib/helpers/auth_helper.rb	/^  def signed_in?$/;"	f	class:AuthHelper
-slots	app/models/hall.rb	/^  has_many :slots$/;"	f
+slots	app/models/hall.rb	/^  has_many :slots, order: :start_time$/;"	f
+update	app/controllers/web/admin/halls_controller.rb	/^  def update$/;"	f	class:Web
 user	/Users/alegch/projects/progul/app/types/user_sign_in_type.rb	/^  def user$/;"	f	class:UserSignInType
 user	app/types/user_sign_in_type.rb	/^  def user$/;"	f	class:UserSignInType
 web	app/repositories/hall_repository.rb	/^    scope :web, -> { asc_by_created_at }$/;"	f

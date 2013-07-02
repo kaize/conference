@@ -19,9 +19,10 @@
 
 /public/system/*
 /coverage
-
+tags
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
 .smartgf_tags
 .smartgf_tags_date
+
