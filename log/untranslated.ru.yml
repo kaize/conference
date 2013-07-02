@@ -3,10 +3,6 @@ ru:
   web:
     admin:
       halls:
-        index:
-          title: ''
-          new: ''
-          count_slots: ''
         new:
           title: ''
         form:
@@ -16,6 +12,3 @@ ru:
         slot_fields:
           time_from_till: ''
           delete: ''
-        edit:
-          title: ''
-  success: ''
