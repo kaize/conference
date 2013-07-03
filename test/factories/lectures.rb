@@ -2,8 +2,9 @@
 
 FactoryGirl.define do
   factory :lecture do
-    name "MyString"
-    state "MyString"
-    hall_id 1
+    name { generate :string }
+    thesis { generate :string }
+    user
+    presentation { generate :image }
   end
 end

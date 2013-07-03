@@ -4,6 +4,7 @@ ru:
       default: "%d-%m-%Y %H:%M"
       admin_date_time_picker: "%Y-%m-%d %H:%M:%S"
       minutes: "%M"
+  current_state: 'Текущее состояние: %{state}'
   web:
     admin:
       halls:
@@ -22,6 +23,17 @@ ru:
           delete: 'Удалить'
         edit:
           title: 'Редактировать слот'
+      lectures:
+        index:
+          title: 'Доклады'
+          new: 'Создать'
+          name: 'Название'
+          user: 'Докладчик'
+          state: 'Состояние'
+        edit:
+          title: 'Редактировать доклад'
+        form:
+          cancel: 'Отмена'
   activemodel:
     errors:
       models:

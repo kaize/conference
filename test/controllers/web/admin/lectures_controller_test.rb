@@ -5,7 +5,8 @@ class Web::Admin::LecturesControllerTest < ActionController::TestCase
     @admin = create :admin_user
     sign_in(@admin)
     @lecture = create :lecture
-    @attrs = attributes_for :lecture
+    # by defult FactoryGirl is ignore associaton for attributes_for
+    @attrs = attributes_for :lecture, user_id: @admin.id
   end
 
   test "should get index" do
@@ -39,13 +40,5 @@ class Web::Admin::LecturesControllerTest < ActionController::TestCase
 
     lecture = Lecture.where(@attrs.extract(:name)).first
     assert lecture
-  end
-
-  test 'should delete destroy' do
-    delete :destroy, id: @lecture.id
-
-    assert_response :redirect
-
-    assert !Lecture.exists?(@lecture)
   end
 end

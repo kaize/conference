@@ -5,6 +5,7 @@ class Web::Admin::LecturesController < ApplicationController
 
   def new
     @lecture = Lecture.new
+    @lecture = @lecture.becomes(LectureType)
   end
 
   def edit
@@ -33,11 +34,5 @@ class Web::Admin::LecturesController < ApplicationController
       f(:error)
       render :edit
     end
-  end
-
-  def destroy
-    @lecture = Lecture.find params[:id]
-    @lecture.destroy
-    redirect_to admin_lecture_path
   end
 end

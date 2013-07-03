@@ -1,5 +1,7 @@
 ru:
   helpers:
+    links:
+      show: 'Показать'
     web:
       sign_in_info:
         logged_as: 'Вы вошли как %{name}'

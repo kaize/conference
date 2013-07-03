@@ -1,17 +1,25 @@
-%h1= t('.title')
+.page-header
+  %h1=t '.title'
 
-%table
-  %tr
-    %th
-    %th
-    %th
-
-  - @lectures.each do |lecture|
-    %tr
-      %td= link_to lecture.name, admin_lecture_path(lecture)
-      %td= link_to t('.helpers.links.edit'), edit_admin_lecture_path(lecture)
-      %td= link_to t('.helpers.links.destroy'), admin_lecture_path(lecture), :method => :delete, :data => { :confirm => t('helper.links.confirm')}
-
+.row
+  .span4
+    = link_to t('.new'), new_admin_lecture_path, class: 'btn btn-primary'
 %br
 
-= link_to t('helpers.links.new'), new_admin_lecture_path
+%table.table.table-striped
+  %thead
+    %tr
+      %th= t('.name')
+      %th= t('.user')
+      %th= t('.state')
+      %th
+  %tbody
+    - @lectures.each do |lecture|
+      %tr
+        %td= lecture.name
+        %td= lecture.user.name
+        %td= lecture.human_state_name
+        %td
+          .pull-right.btn-group
+            = link_to edit_admin_lecture_path(lecture), class: 'btn btn-mini' do
+              %i.icon-pencil
