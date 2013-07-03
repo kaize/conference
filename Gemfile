@@ -37,11 +37,13 @@ gem "less-rails"
 gem 'validates'
 gem 'state_machine'
 gem 'bcrypt-ruby', '~> 3.0.0'
-gem 'simple_form'
+gem 'simple_form', :git => 'git://github.com/plataformatec/simple_form.git'
 gem 'virtus'
 gem 'term-ansicolor'
 gem 'russian'
 gem 'cocoon', :git => 'git://github.com/nathanvda/cocoon'
+gem 'select2-rails'
+gem 'carrierwave'
 
 group :development do
   gem 'guard-minitest'

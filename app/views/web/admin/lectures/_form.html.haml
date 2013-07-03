@@ -1,0 +1,10 @@
+= form_for [:admin, @lecture] do |f|
+  - if @lecture.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@lecture.errors.count, "error")} prohibited this web_admin_lecture from being saved:"
+      %ul
+        - @web_admin_lecture.errors.full_messages.each do |msg|
+          %li= msg
+
+  .actions
+    = f.submit t('helpers.links.save')

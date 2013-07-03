@@ -1,0 +1,17 @@
+%h1= t('.title')
+
+%table
+  %tr
+    %th
+    %th
+    %th
+
+  - @lectures.each do |lecture|
+    %tr
+      %td= link_to lecture.name, admin_lecture_path(lecture)
+      %td= link_to t('.helpers.links.edit'), edit_admin_lecture_path(lecture)
+      %td= link_to t('.helpers.links.destroy'), admin_lecture_path(lecture), :method => :delete, :data => { :confirm => t('helper.links.confirm')}
+
+%br
+
+= link_to t('helpers.links.new'), new_admin_lecture_path

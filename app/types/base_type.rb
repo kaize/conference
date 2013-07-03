@@ -20,9 +20,12 @@ module BaseType
   end
 
   def assign_attributes(attrs = {})
+    p '===attrs==='
     p attrs
     raise ArgumentError, "expected hash" if attrs.nil?
+    p '===permitted attrs==='
     permitted_attrs = attrs.send :permit, self.class._args
+    p permitted_attrs
     super(permitted_attrs)
   end
 end
