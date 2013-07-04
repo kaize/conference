@@ -48,9 +48,6 @@ GEM
     backports (3.3.2)
     bcrypt-ruby (3.0.1)
     builder (3.1.4)
-    carrierwave (0.8.0)
-      activemodel (>= 3.2.0)
-      activesupport (>= 3.2.0)
     coderay (1.0.9)
     coffee-rails (4.0.0)
       coffee-script (>= 2.2.0)
@@ -238,7 +235,6 @@ PLATFORMS
 DEPENDENCIES
   airbrake
   bcrypt-ruby (~> 3.0.0)
-  carrierwave
   cocoon!
   coffee-rails (~> 4.0.0)
   coveralls

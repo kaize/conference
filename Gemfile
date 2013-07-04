@@ -43,7 +43,6 @@ gem 'term-ansicolor'
 gem 'russian'
 gem 'cocoon', :git => 'git://github.com/nathanvda/cocoon'
 gem 'select2-rails'
-gem 'carrierwave'
 
 group :development do
   gem 'guard-minitest'

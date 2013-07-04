@@ -14,8 +14,5 @@
       = f.input :thesis, as: :text, input_html: { class: 'input-block-level' }
   .row
     .span8.well
-      = f.input :presentation, as: :file_download
-  .row
-    .span8.well
       = f.button :submit, class: 'btn btn-primary'
       = link_to t('.cancel'), admin_lectures_path, class: 'btn'
