@@ -40,12 +40,4 @@ class Web::Admin::HallsControllerTest < ActionController::TestCase
     hall = Hall.where(@attrs.extract(:name)).first
     assert hall
   end
-
-  test 'should delete destroy' do
-    delete :destroy, id: @hall.id
-
-    assert_response :redirect
-
-    assert !Hall.exists?(@hall)
-  end
 end
