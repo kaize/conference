@@ -12,4 +12,11 @@ ru:
             move_to_schedule: "В расписание"
             move_to_voting: "В голосование"
             reject: "Запретить"
-
+      hall:
+        state:
+          states:
+            active: 'Активен'
+            inactive: 'Не активен'
+          events:
+            activate: 'Активизировать'
+            deactivate: 'Деактивизировать'

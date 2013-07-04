@@ -3,7 +3,7 @@
 
 .row
   .span4
-    = link_to t('helpers.titles.new'), new_admin_hall_path, class: 'btn btn-primary'
+    = link_to t('.new'), new_admin_hall_path, class: 'btn btn-primary'
 
 %br
 
@@ -24,6 +24,3 @@
           .pull-right.btn-group
             = link_to edit_admin_hall_path(hall), class: 'btn btn-mini' do
               %i.icon-pencil
-            = link_to admin_hall_path(hall), class: 'btn btn-mini', method: :delete do
-              %i.icon-trash
-

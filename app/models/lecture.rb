@@ -8,9 +8,10 @@ class Lecture < ActiveRecord::Base
   validates :user, presence: true
 
   mount_uploader :presentation, LecturePresentationUploader
-  # validate :presentation, presence: true
+  validate :presentation, presence: true
 
-  state_machine :state, initial: :new do state :new
+  state_machine :state, initial: :new do
+    state :new
     state :in_schedule
     state :voted
     state :rejected

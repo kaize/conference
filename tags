@@ -81,6 +81,9 @@ Web	test/controllers/web/sessions_controller_test.rb	/^class Web::SessionsContro
 Web	test/controllers/web/welcome_controller_test.rb	/^class Web::WelcomeControllerTest < ActionController::TestCase$/;"	c
 WelcomeHelperTest	/Users/alegch/projects/progul/test/helpers/welcome_helper_test.rb	/^class WelcomeHelperTest < ActionView::TestCase$/;"	c
 _args	app/types/base_type.rb	/^    def _args$/;"	f	class:BaseType.ClassMethods
+activate	app/models/hall.rb	/^    event :activate do$/;"	f
+activate!	app/models/hall.rb	/^    event :activate do$/;"	f
+activate?	app/models/hall.rb	/^    event :activate do$/;"	f
 assign_attributes	app/types/base_type.rb	/^  def assign_attributes(attrs = {})$/;"	f	class:BaseType
 authenticate_admin!	/Users/alegch/projects/progul/lib/helpers/auth_helper.rb	/^  def authenticate_admin!$/;"	f	class:AuthHelper
 authenticate_admin!	lib/helpers/auth_helper.rb	/^  def authenticate_admin!$/;"	f	class:AuthHelper
@@ -100,6 +103,9 @@ create	app/controllers/web/admin/lectures_controller.rb	/^  def create$/;"	f	cla
 create	app/controllers/web/sessions_controller.rb	/^  def create$/;"	f	class:Web
 current_user	/Users/alegch/projects/progul/lib/helpers/auth_helper.rb	/^  def current_user$/;"	f	class:AuthHelper
 current_user	lib/helpers/auth_helper.rb	/^  def current_user$/;"	f	class:AuthHelper
+deactivate	app/models/hall.rb	/^    event :deactivate do$/;"	f
+deactivate!	app/models/hall.rb	/^    event :deactivate do$/;"	f
+deactivate?	app/models/hall.rb	/^    event :deactivate do$/;"	f
 destroy	/Users/alegch/projects/progul/app/controllers/web/sessions_controller.rb	/^  def destroy$/;"	f	class:Web
 destroy	app/controllers/web/admin/halls_controller.rb	/^  def destroy$/;"	f	class:Web
 destroy	app/controllers/web/sessions_controller.rb	/^  def destroy$/;"	f	class:Web

@@ -6,4 +6,17 @@ class Hall < ActiveRecord::Base
 
   validates :name, presence: true
   validates_associated :slots
+
+  state_machine :state, initial: :active do
+    state :active
+    state :inactive
+
+    event :activate do
+      transition [:inactive] => :active
+    end
+
+    event :deactivate do
+      transition [:active] => :inactive
+    end
+  end
 end

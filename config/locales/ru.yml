@@ -12,7 +12,7 @@ ru:
           title: 'Новый зал'
         index:
           title: 'Залы'
-          new: 'Новый'
+          new: 'Добавить зал'
           count_slots: 'Количество слотов'
           name: "Название"
         form:
@@ -23,11 +23,11 @@ ru:
           time_from_till: 'Промежутки времени'
           delete: 'Удалить'
         edit:
-          title: 'Редактировать слот'
+          title: 'Редактирование зала %{name}'
       lectures:
         index:
           title: 'Доклады'
-          new: 'Создать'
+          new: 'Добавить доклад'
           name: 'Название'
           user: 'Докладчик'
           state: 'Состояние'
