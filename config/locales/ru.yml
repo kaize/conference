@@ -14,6 +14,7 @@ ru:
           title: 'Залы'
           new: 'Новый'
           count_slots: 'Количество слотов'
+          name: "Название"
         form:
           timeslots: 'Таймслоты'
           add_slot: 'Добавить слот'
