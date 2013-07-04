@@ -17,7 +17,7 @@ ru:
         presentation: 'Презентация'
       hall:
         slots:
-          lecture: 'Докладчик'
+          lecture: 'Доклад'
   helpers:
     submit:
       user_sign_in_type:
