@@ -1,0 +1,15 @@
+ru:
+  activerecord:
+    state_machines:
+      lecture:
+        state:
+          states:
+            in_schedule: 'В программе'
+            new: 'Новый'
+            voted: 'На голосовании'
+            rejected: 'Отклонен'
+          events:
+            move_to_schedule: "В расписание"
+            move_to_voting: "В голосование"
+            reject: "Запретить"
+

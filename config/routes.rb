@@ -7,6 +7,7 @@ Progul::Application.routes.draw do
     namespace :admin do
       root 'welcome#index'
       resources :halls
+      resources :lectures, only: [:index, :new, :create, :edit, :update]
     end
   end
 

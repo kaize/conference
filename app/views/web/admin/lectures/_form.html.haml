@@ -1,0 +1,21 @@
+= simple_form_for [:admin, @lecture], html: { class: 'form-horizontal hall-form' } do |f|
+  .row
+    .span8.well
+      = f.input :name, input_html: { class: 'input-block-level' }
+  .row
+    .span8.well
+      = f.association :user, collection: User.all, label_method: :name, value_method: :id, as: :choosen_select, input_html: { class: 'input-block-level' }
+  .row
+    .span8.well
+      = f.input :state_event, as: :state_event, input_html: { class: 'input-block-level' }
+
+  .row
+    .span8.well
+      = f.input :thesis, as: :text, input_html: { class: 'input-block-level' }
+  .row
+    .span8.well
+      = f.input :presentation, as: :file_download
+  .row
+    .span8.well
+      = f.button :submit, class: 'btn btn-primary'
+      = link_to t('.cancel'), admin_lectures_path, class: 'btn'

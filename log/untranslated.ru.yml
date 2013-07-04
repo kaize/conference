@@ -1,6 +1,8 @@
 ---
 ru:
-  helpers:
-    web:
-      sign_in_info:
-        login: ''
+  success: ''
+  web:
+    admin:
+      lectures:
+        new:
+          title: ''

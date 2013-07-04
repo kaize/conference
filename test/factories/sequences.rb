@@ -14,4 +14,8 @@ FactoryGirl.define do
   sequence :email do |n|
     "email_#{n}@mail.com"
   end
+
+  sequence :image do |n|
+    fixture_file_upload Rails.root.to_s + "/test/fixtures/photos/example.jpg", "image/jpg"
+  end
 end

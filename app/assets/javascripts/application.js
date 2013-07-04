@@ -16,4 +16,5 @@
 //= require bootstrap-datetimepicker.min
 //  NOTE: найти почему не работает require turbolinks
 //= require cocoon
+//= require select2
 //= require_tree .
