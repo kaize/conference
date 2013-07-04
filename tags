@@ -155,13 +155,13 @@ signed_as_admin?	lib/helpers/auth_helper.rb	/^  def signed_as_admin?$/;"	f	class
 signed_in?	/Users/alegch/projects/progul/lib/helpers/auth_helper.rb	/^  def signed_in?$/;"	f	class:AuthHelper
 signed_in?	lib/helpers/auth_helper.rb	/^  def signed_in?$/;"	f	class:AuthHelper
 slot	app/models/lecture.rb	/^  has_one :slot$/;"	f
-slots	app/models/hall.rb	/^  has_many :slots, order: :start_time$/;"	f
+slots	app/models/hall.rb	/^  has_many :slots, -> { order "start_time DESC" }$/;"	f
 store_dir	app/uploaders/lecture_presentation_uploader.rb	/^  def store_dir$/;"	f	class:LecturePresentationUploader
 update	app/controllers/web/admin/halls_controller.rb	/^  def update$/;"	f	class:Web
 update	app/controllers/web/admin/lectures_controller.rb	/^  def update$/;"	f	class:Web
 user	/Users/alegch/projects/progul/app/types/user_sign_in_type.rb	/^  def user$/;"	f	class:UserSignInType
 user	app/models/lecture.rb	/^  belongs_to :user$/;"	f
 user	app/types/user_sign_in_type.rb	/^  def user$/;"	f	class:UserSignInType
-web	app/repositories/hall_repository.rb	/^    scope :web, -> { asc_by_created_at }$/;"	f
-web	app/repositories/lecture_repository.rb	/^    scope :web, -> { asc_by_created_at }$/;"	f
-web	app/repositories/slot_repository.rb	/^    scope :web, ->{ asc_by_start_time }$/;"	f
+web	app/repositories/hall_repository.rb	/^    scope :web, -> { order("created_at DESC") }$/;"	f
+web	app/repositories/lecture_repository.rb	/^    scope :web, -> { order("created_at DESC") }$/;"	f
+web	app/repositories/slot_repository.rb	/^    scope :web, -> { order("start_time DESC") }$/;"	f

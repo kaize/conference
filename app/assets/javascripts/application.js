@@ -14,7 +14,7 @@
 //= require jquery_ujs
 //= require twitter/bootstrap
 //= require bootstrap-datetimepicker.min
-//  NOTE: найти почему не работает require turbolinks
+// NOTE: найти почему не работает turbolinks
 //= require cocoon
 //= require select2
 //= require_tree .
