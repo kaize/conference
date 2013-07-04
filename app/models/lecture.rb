@@ -2,6 +2,7 @@ class Lecture < ActiveRecord::Base
   include LectureRepository
 
   belongs_to :user
+  has_one :slot
 
   validates :name, presence: true
   validates :thesis, presence: true

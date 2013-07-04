@@ -1,6 +1,8 @@
 .row.nested-fields
   .span8.well
     .control-group
+      = f.association :lecture, collection: Lecture.scheduled, label_method: :name, value_method: :id, as: :choosen_select, input_html: { class: 'input-block-level' }
+    .control-group
       .control-label
         = t('.time_from_till')
       .controls

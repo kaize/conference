@@ -125,6 +125,7 @@ input	app/inputs/date_time_picker_input.rb	/^  def input$/;"	f	class:DateTimePic
 input	app/inputs/file_download_input.rb	/^  def input$/;"	f	class:FileDownloadInput
 input	app/inputs/state_event_input.rb	/^  def input$/;"	f	class:StateEventInput
 input_html_classes	app/inputs/choosen_select_input.rb	/^  def input_html_classes$/;"	f	class:ChoosenSelectInput
+lecture	app/models/slot.rb	/^  belongs_to :lecture$/;"	f
 lectures	app/models/user.rb	/^  has_many :lectures$/;"	f
 model_name	app/types/base_type.rb	/^    def model_name$/;"	f	class:BaseType.ClassMethods
 move_to_schedule	app/models/lecture.rb	/^    event :move_to_schedule do$/;"	f
@@ -144,6 +145,7 @@ persisted?	app/types/base_type_without_active_record.rb	/^  def persisted?$/;"	f
 reject	app/models/lecture.rb	/^    event :reject do$/;"	f
 reject!	app/models/lecture.rb	/^    event :reject do$/;"	f
 reject?	app/models/lecture.rb	/^    event :reject do$/;"	f
+scheduled	app/repositories/lecture_repository.rb	/^    scope :scheduled, -> { where(state: :in_schedule) }$/;"	f
 sign_in	/Users/alegch/projects/progul/lib/helpers/auth_helper.rb	/^  def sign_in(user)$/;"	f	class:AuthHelper
 sign_in	lib/helpers/auth_helper.rb	/^  def sign_in(user)$/;"	f	class:AuthHelper
 sign_out	/Users/alegch/projects/progul/lib/helpers/auth_helper.rb	/^  def sign_out$/;"	f	class:AuthHelper
@@ -152,6 +154,7 @@ signed_as_admin?	/Users/alegch/projects/progul/lib/helpers/auth_helper.rb	/^  de
 signed_as_admin?	lib/helpers/auth_helper.rb	/^  def signed_as_admin?$/;"	f	class:AuthHelper
 signed_in?	/Users/alegch/projects/progul/lib/helpers/auth_helper.rb	/^  def signed_in?$/;"	f	class:AuthHelper
 signed_in?	lib/helpers/auth_helper.rb	/^  def signed_in?$/;"	f	class:AuthHelper
+slot	app/models/lecture.rb	/^  has_one :slot$/;"	f
 slots	app/models/hall.rb	/^  has_many :slots, order: :start_time$/;"	f
 store_dir	app/uploaders/lecture_presentation_uploader.rb	/^  def store_dir$/;"	f	class:LecturePresentationUploader
 update	app/controllers/web/admin/halls_controller.rb	/^  def update$/;"	f	class:Web

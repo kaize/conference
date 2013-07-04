@@ -5,6 +5,7 @@ module LectureRepository
 
   included do
     scope :web, -> { asc_by_created_at }
+    scope :scheduled, -> { where(state: :in_schedule) }
   end
 end
 

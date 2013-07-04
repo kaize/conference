@@ -31,8 +31,10 @@ ru:
           name: 'Название'
           user: 'Докладчик'
           state: 'Состояние'
+        new:
+          title: 'Новый доклад'
         edit:
-          title: 'Редактировать доклад'
+          title: 'Редактирование доклада %{name}'
         form:
           cancel: 'Отмена'
   activemodel:

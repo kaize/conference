@@ -7,14 +7,17 @@ ru:
         email: 'Email'
         password: 'Пароль'
         state_event: 'Состояние'
+        name: 'Название'
       user_sign_in_type:
         email: 'Email'
         password: 'Пароль'
       lecture:
-        name: 'Название'
         user: 'Докладчик'
         thesis: 'Тезис'
         presentation: 'Презентация'
+      hall:
+        slots:
+          lecture: 'Докладчик'
   helpers:
     submit:
       user_sign_in_type:
