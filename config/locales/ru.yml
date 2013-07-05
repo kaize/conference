@@ -34,6 +34,17 @@ ru:
           title: 'Редактировать доклад'
         form:
           cancel: 'Отмена'
+      users:
+        index:
+          title: 'Пользователи'
+          new: 'Добавить пользователя'
+          first_name: 'Имя'
+          last_name: 'Фамилия'
+          role: 'Роль'
+        new:
+          title: 'Новый пользователь'
+        edit:
+          title: 'Редактирование %{first_name} %{last_name}'
   activemodel:
     errors:
       models:

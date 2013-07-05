@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/brainspec/enumerize
+  revision: 4dcffbc38f96d3e478524cfc367140cd47284ce4
+  specs:
+    enumerize (0.6.1)
+      activesupport (>= 3.2)
+
+GIT
   remote: git://github.com/nathanvda/cocoon
   revision: 80b73cd66d90be3d4795d3492d6940b22ce3eba7
   specs:
@@ -242,6 +249,7 @@ DEPENDENCIES
   cocoon!
   coffee-rails (~> 4.0.0)
   coveralls
+  enumerize!
   factory_girl_rails
   guard-bundler
   guard-minitest

@@ -1,8 +1,9 @@
 ---
 ru:
-  success: ''
   web:
     admin:
-      lectures:
-        new:
-          title: ''
+      users:
+        index:
+          id: ''
+        form:
+          cancel: ''

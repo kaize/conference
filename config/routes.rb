@@ -7,6 +7,7 @@ Progul::Application.routes.draw do
       root 'welcome#index'
       resources :halls
       resources :lectures, only: [:index, :new, :create, :edit, :update]
+      resources :users, only: [:index, :new, :create, :edit, :update]
     end
   end
 
