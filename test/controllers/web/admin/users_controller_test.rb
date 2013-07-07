@@ -20,10 +20,9 @@ class Web::Admin::UsersControllerTest < ActionController::TestCase
 
   test "should get create" do
     post :create, user: @attrs
-
     assert_response :redirect
 
-    user = User.find_by_email @attrs[:email] 
+    user = User.where(@attrs.extract(:email)).first
     assert user
   end
 
