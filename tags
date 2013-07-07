@@ -18,6 +18,7 @@ Application	config/application.rb	/^  class Application < Rails::Application$/;"
 ApplicationController	/Users/alegch/projects/progul/app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
 ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
 ApplicationHelper	/Users/alegch/projects/progul/app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
 AuthHelper	/Users/alegch/projects/progul/lib/helpers/auth_helper.rb	/^module AuthHelper$/;"	m
 AuthHelper	lib/helpers/auth_helper.rb	/^module AuthHelper$/;"	m
 BasePicker	app/inputs/base_picker.rb	/^class BasePicker < SimpleForm::Inputs::DateTimeInput$/;"	c
@@ -122,6 +123,7 @@ edit	app/controllers/web/admin/users_controller.rb	/^  def edit$/;"	f	class:Web
 extract	config/initializers/core_ext/hash.rb	/^  def extract(*keys)$/;"	f	class:Hash
 f	/Users/alegch/projects/progul/lib/helpers/flash_helper.rb	/^  def f(key, options = {})$/;"	f	class:FlashHelper
 hall	app/models/slot.rb	/^  belongs_to :hall$/;"	f
+ham	app/helpers/application_helper.rb	/^  def ham(model, attribute)$/;"	f	class:ApplicationHelper
 human_state_name	app/inputs/state_event_input.rb	/^  def human_state_name$/;"	f	class:StateEventInput
 index	/Users/alegch/projects/progul/app/controllers/web/admin/welcome_controller.rb	/^  def index$/;"	f	class:Web
 index	/Users/alegch/projects/progul/app/controllers/web/welcome_controller.rb	/^  def index$/;"	f	class:Web

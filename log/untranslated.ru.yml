@@ -2,8 +2,6 @@
 ru:
   web:
     admin:
-      users:
-        index:
-          id: ''
-        form:
-          cancel: ''
+      lectures:
+        new:
+          title: ''

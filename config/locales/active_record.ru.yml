@@ -11,11 +11,12 @@ ru:
       slot:
         start_time: 'Время начала'
         finish_time: 'Время конца'
-      lecture_type:
+      lecture:
         name: 'Название'
         thesis: 'Тезис'
         user: 'Докладчик'
         presentation: 'Презентация'
+        state: 'Состояние'
       user:
         first_name: 'Имя'
         password_confirmation: 'Подтверждение пароля'
