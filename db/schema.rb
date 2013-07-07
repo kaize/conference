@@ -17,7 +17,6 @@ ActiveRecord::Schema.define(version: 20130707185732) do
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "state"
   end
 
   create_table "lectures", force: true do |t|
@@ -27,6 +26,7 @@ ActiveRecord::Schema.define(version: 20130707185732) do
     t.datetime "updated_at"
     t.integer  "user_id"
     t.string   "thesis"
+    t.string   "presentation"
   end
 
   create_table "slots", force: true do |t|
@@ -35,7 +35,6 @@ ActiveRecord::Schema.define(version: 20130707185732) do
     t.datetime "finish_time"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "lecture_id"
   end
 
   create_table "users", force: true do |t|

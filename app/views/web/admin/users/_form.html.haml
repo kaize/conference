@@ -10,9 +10,9 @@
   = f.input :admin, input_html: { class: 'checkbox' }
   = f.input :role, include_blank: false, input_html: { class: 'span5' } 
   = f.input :email, input_html: { class: 'span5' }
-  = f.input :password
-  = f.input :password_confirmation
-
+  - if @user.new_record?
+    = f.input :password
+    = f.input :password_confirmation
   .row
     .span8.well
       = f.button :submit, class: 'btn btn-primary'
