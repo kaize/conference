@@ -11,6 +11,7 @@ APP_PATH	/Users/alegch/projects/progul/config/unicorn/staging.rb	/^APP_PATH = "\
 ActiveSupport	/Users/alegch/projects/progul/test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
 ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
 AddAdminToUser	/Users/alegch/projects/progul/db/migrate/20130627094819_add_admin_to_user.rb	/^class AddAdminToUser < ActiveRecord::Migration$/;"	c
+AddEmailUniqIndexToUser	db/migrate/20130707185732_add_email_uniq_index_to_user.rb	/^class AddEmailUniqIndexToUser < ActiveRecord::Migration$/;"	c
 AllFiles	/Users/alegch/projects/progul/coverage/index.html	/^  <a name="AllFiles"><\/a>$/;"	a
 Application	/Users/alegch/projects/progul/config/application.rb	/^  class Application < Rails::Application$/;"	c	class:Progul
 Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:Progul
@@ -98,6 +99,7 @@ change	/Users/alegch/projects/progul/db/migrate/20130627094819_add_admin_to_user
 change	db/migrate/20130628110510_create_halls.rb	/^  def change$/;"	f	class:CreateHalls
 change	db/migrate/20130628112425_create_slots.rb	/^  def change$/;"	f	class:CreateSlots
 change	db/migrate/20130703121118_remove_hall_id_from_lecture.rb	/^  def change$/;"	f	class:RemoveHallIdFromLecture
+change	db/migrate/20130707185732_add_email_uniq_index_to_user.rb	/^  def change$/;"	f	class:AddEmailUniqIndexToUser
 check_authenticate	/Users/alegch/projects/progul/app/types/user_sign_in_type.rb	/^  def check_authenticate$/;"	f	class:UserSignInType
 check_authenticate	app/types/user_sign_in_type.rb	/^  def check_authenticate$/;"	f	class:UserSignInType
 collection	app/inputs/state_event_input.rb	/^  def collection$/;"	f	class:StateEventInput

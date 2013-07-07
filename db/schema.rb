@@ -11,12 +11,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130705072607) do
+ActiveRecord::Schema.define(version: 20130707185732) do
 
   create_table "halls", force: true do |t|
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "state"
   end
 
   create_table "lectures", force: true do |t|
@@ -26,7 +27,6 @@ ActiveRecord::Schema.define(version: 20130705072607) do
     t.datetime "updated_at"
     t.integer  "user_id"
     t.string   "thesis"
-    t.string   "presentation"
   end
 
   create_table "slots", force: true do |t|
@@ -35,6 +35,7 @@ ActiveRecord::Schema.define(version: 20130705072607) do
     t.datetime "finish_time"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "lecture_id"
   end
 
   create_table "users", force: true do |t|
@@ -54,5 +55,7 @@ ActiveRecord::Schema.define(version: 20130705072607) do
     t.string   "state"
     t.boolean  "show_as_participant"
   end
+
+  add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
 
 end
