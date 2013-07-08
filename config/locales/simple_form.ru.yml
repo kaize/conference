@@ -6,20 +6,3 @@ ru:
       defaults:
         email: 'Email'
         password: 'Пароль'
-        state_event: 'Состояние'
-        name: 'Название'
-      user_sign_in_type:
-        email: 'Email'
-        password: 'Пароль'
-      lecture:
-        user: 'Докладчик'
-        thesis: 'Тезис'
-        presentation: 'Презентация'
-      hall:
-        slots:
-          lecture: 'Доклад'
-  helpers:
-    submit:
-      user_sign_in_type:
-    links:
-      show: 'Показать'

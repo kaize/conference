@@ -9,9 +9,9 @@
 %table.table.table-striped
   %thead
     %tr
-      %th= t('.name')
-      %th= t('.user')
-      %th= t('.state')
+      %th= ham(:lecture, :name)
+      %th= ham(:lecture, :user)
+      %th= ham(:lecture, :state)
       %th
   %tbody
     - @lectures.each do |lecture|

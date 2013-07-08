@@ -4,13 +4,36 @@ ru:
       hall: 'Зал'
       slot: 'Слот'
       lecture: 'Доклад'
-  attributes:
-    name: "Название"
-    slot:
-      start_time: 'Время начала'
-      finish_time: 'Время конца'
-    lecture_type:
-      thesis: 'Тезис'
-      user: 'Докладчик'
-      presentation: 'Презентация'
-
+    attributes:
+      hall:
+        name: 'Название'
+      slot:
+        start_time: 'Время начала'
+        finish_time: 'Время конца'
+      lecture:
+        name: 'Название'
+        thesis: 'Тезис'
+        user: 'Докладчик'
+        presentation: 'Презентация'
+        state: 'Состояние'
+      user:
+        first_name: 'Имя'
+        password_confirmation: 'Подтверждение пароля'
+        last_name: 'Фамилия'
+        company: 'Компания'
+        position: 'Должность'
+        city: 'Город'
+        about: 'О себе'
+        admin: 'Администратор'
+        state_event: 'Событие'
+        show_as_participant: 'Показывать как участника'
+        role: 'Роль'
+    errors:
+      messages:
+        blank: 'Поле не может быть пустым'
+      models:
+        user:
+          attributes:
+            email:
+              email: 'Введен некорректный email'
+              taken: 'Данный Email уже зарегистрирован'

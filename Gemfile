@@ -1,6 +1,5 @@
 ruby '2.0.0'
 source 'https://rubygems.org'
-ruby "2.0.0"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
@@ -44,6 +43,7 @@ gem 'term-ansicolor'
 gem 'russian'
 gem 'cocoon', :git => 'git://github.com/nathanvda/cocoon'
 gem 'select2-rails'
+gem 'enumerize', :git => 'git://github.com/brainspec/enumerize'
 
 group :development do
   gem 'guard-minitest'
