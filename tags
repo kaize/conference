@@ -71,8 +71,9 @@ Web	/Users/alegch/projects/progul/test/controllers/web/sessions_controller_test.
 Web	/Users/alegch/projects/progul/test/controllers/web/welcome_controller_test.rb	/^class Web::WelcomeControllerTest < ActionController::TestCase$/;"	c
 Web	/Users/alegch/projects/progul/test/helpers/web/admin/welcome_helper_test.rb	/^class Web::Admin::WelcomeHelperTest < ActionView::TestCase$/;"	c
 Web	/Users/alegch/projects/progul/test/helpers/web/sessions_helper_test.rb	/^class Web::SessionsHelperTest < ActionView::TestCase$/;"	c
-Web	app/controllers/web/admin/halls_controller.rb	/^class Web::Admin::HallsController < ApplicationController$/;"	c
-Web	app/controllers/web/admin/lectures_controller.rb	/^class Web::Admin::LecturesController < ApplicationController$/;"	c
+Web	app/controllers/web/admin/halls_controller.rb	/^class Web::Admin::HallsController < Web::Admin::ApplicationController$/;"	c
+Web	app/controllers/web/admin/lectures_controller.rb	/^class Web::Admin::LecturesController < Web::Admin::ApplicationController$/;"	c
+Web	app/controllers/web/admin/welcome_controller.rb	/^class Web::Admin::WelcomeController < Web::Admin::ApplicationController$/;"	c
 Web	app/controllers/web/sessions_controller.rb	/^class Web::SessionsController < Web::ApplicationController$/;"	c
 Web	test/controllers/web/admin/halls_controller_test.rb	/^class Web::Admin::HallsControllerTest < ActionController::TestCase$/;"	c
 Web	test/controllers/web/admin/lectures_controller_test.rb	/^class Web::Admin::LecturesControllerTest < ActionController::TestCase$/;"	c
@@ -113,6 +114,7 @@ index	/Users/alegch/projects/progul/app/controllers/web/admin/welcome_controller
 index	/Users/alegch/projects/progul/app/controllers/web/welcome_controller.rb	/^  def index$/;"	f	class:Web
 index	app/controllers/web/admin/halls_controller.rb	/^  def index$/;"	f	class:Web
 index	app/controllers/web/admin/lectures_controller.rb	/^  def index$/;"	f	class:Web
+index	app/controllers/web/admin/welcome_controller.rb	/^  def index$/;"	f	class:Web
 input	app/inputs/base_picker.rb	/^  def input$/;"	f	class:BasePicker
 input	app/inputs/date_time_picker.rb	/^  def input$/;"	f	class:DateTimePickerInput
 input	app/inputs/date_time_picker_input.rb	/^  def input$/;"	f	class:DateTimePickerInput

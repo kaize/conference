@@ -1,4 +1,4 @@
-class Web::Admin::LecturesController < ApplicationController
+class Web::Admin::LecturesController < Web::Admin::ApplicationController
   def index
     @lectures = Lecture.web
   end
