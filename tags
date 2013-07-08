@@ -77,7 +77,7 @@ Web	/Users/alegch/projects/progul/test/helpers/web/admin/welcome_helper_test.rb	
 Web	/Users/alegch/projects/progul/test/helpers/web/sessions_helper_test.rb	/^class Web::SessionsHelperTest < ActionView::TestCase$/;"	c
 Web	app/controllers/web/admin/halls_controller.rb	/^class Web::Admin::HallsController < ApplicationController$/;"	c
 Web	app/controllers/web/admin/lectures_controller.rb	/^class Web::Admin::LecturesController < ApplicationController$/;"	c
-Web	app/controllers/web/admin/users_controller.rb	/^class Web::Admin::UsersController < ApplicationController$/;"	c
+Web	app/controllers/web/admin/users_controller.rb	/^class Web::Admin::UsersController < Web::Admin::ApplicationController$/;"	c
 Web	app/controllers/web/sessions_controller.rb	/^class Web::SessionsController < Web::ApplicationController$/;"	c
 Web	test/controllers/web/admin/halls_controller_test.rb	/^class Web::Admin::HallsControllerTest < ActionController::TestCase$/;"	c
 Web	test/controllers/web/admin/lectures_controller_test.rb	/^class Web::Admin::LecturesControllerTest < ActionController::TestCase$/;"	c
