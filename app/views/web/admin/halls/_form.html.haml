@@ -1,9 +1,7 @@
 = simple_form_for [:admin, @hall], html: { class: 'form-horizontal hall-form' } do |f|
   .row
-    .span8.well
-      = f.input :name, input_html: { class: 'span8' }
-  .row
-    .span8.well
+    .span8
+      = f.input :name, input_html: { class: 'input-block-level' }
       = f.input :state_event, as: :state_event, input_html: { class: 'input-block-level' }
 
   %h3= t '.timeslots'
@@ -13,8 +11,7 @@
   #links
     .control-group
       = link_to_add_association t('.add_slot'), f, :slots, class: "btn", data: { association_insertion_node: '#slots', association_insertion_method: 'append' }
-  .row
-    .span8.well
-      = f.button :submit, class: 'btn btn-primary'
-      = link_to t('.cancel'), admin_halls_path, class: 'btn'
+  .form-actions
+    = f.button :submit, class: 'btn btn-primary'
+    = link_to t('.cancel'), admin_halls_path, class: 'btn'
 

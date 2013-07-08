@@ -4,7 +4,7 @@ class Web::Admin::HallsController < Web::Admin::ApplicationController
   end
 
   def new
-    @hall = Hall.new
+    @hall = HallType.new
     @hall.slots.build
   end
 

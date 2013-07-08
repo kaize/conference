@@ -77,10 +77,8 @@ Web	/Users/alegch/projects/progul/test/helpers/web/admin/welcome_helper_test.rb	
 Web	/Users/alegch/projects/progul/test/helpers/web/sessions_helper_test.rb	/^class Web::SessionsHelperTest < ActionView::TestCase$/;"	c
 Web	app/controllers/web/admin/halls_controller.rb	/^class Web::Admin::HallsController < Web::Admin::ApplicationController$/;"	c
 Web	app/controllers/web/admin/lectures_controller.rb	/^class Web::Admin::LecturesController < Web::Admin::ApplicationController$/;"	c
-Web	app/controllers/web/admin/welcome_controller.rb	/^class Web::Admin::WelcomeController < Web::Admin::ApplicationController$/;"	c
-Web	app/controllers/web/admin/halls_controller.rb	/^class Web::Admin::HallsController < ApplicationController$/;"	c
-Web	app/controllers/web/admin/lectures_controller.rb	/^class Web::Admin::LecturesController < ApplicationController$/;"	c
 Web	app/controllers/web/admin/users_controller.rb	/^class Web::Admin::UsersController < Web::Admin::ApplicationController$/;"	c
+Web	app/controllers/web/admin/welcome_controller.rb	/^class Web::Admin::WelcomeController < Web::Admin::ApplicationController$/;"	c
 Web	app/controllers/web/sessions_controller.rb	/^class Web::SessionsController < Web::ApplicationController$/;"	c
 Web	test/controllers/web/admin/halls_controller_test.rb	/^class Web::Admin::HallsControllerTest < ActionController::TestCase$/;"	c
 Web	test/controllers/web/admin/lectures_controller_test.rb	/^class Web::Admin::LecturesControllerTest < ActionController::TestCase$/;"	c
@@ -91,10 +89,10 @@ Web	test/controllers/web/welcome_controller_test.rb	/^class Web::WelcomeControll
 WelcomeHelperTest	/Users/alegch/projects/progul/test/helpers/welcome_helper_test.rb	/^class WelcomeHelperTest < ActionView::TestCase$/;"	c
 _args	app/types/base_type.rb	/^    def _args$/;"	f	class:BaseType.ClassMethods
 activate	app/models/hall.rb	/^    event :activate do$/;"	f
-activate!	app/models/hall.rb	/^    event :activate do$/;"	f
-activate?	app/models/hall.rb	/^    event :activate do$/;"	f
 activate	app/models/user.rb	/^    event :activate do$/;"	f
+activate!	app/models/hall.rb	/^    event :activate do$/;"	f
 activate!	app/models/user.rb	/^    event :activate do$/;"	f
+activate?	app/models/hall.rb	/^    event :activate do$/;"	f
 activate?	app/models/user.rb	/^    event :activate do$/;"	f
 assign_attributes	app/types/base_type.rb	/^  def assign_attributes(attrs = {})$/;"	f	class:BaseType
 authenticate_admin!	/Users/alegch/projects/progul/lib/helpers/auth_helper.rb	/^  def authenticate_admin!$/;"	f	class:AuthHelper
@@ -118,10 +116,10 @@ create	app/controllers/web/sessions_controller.rb	/^  def create$/;"	f	class:Web
 current_user	/Users/alegch/projects/progul/lib/helpers/auth_helper.rb	/^  def current_user$/;"	f	class:AuthHelper
 current_user	lib/helpers/auth_helper.rb	/^  def current_user$/;"	f	class:AuthHelper
 deactivate	app/models/hall.rb	/^    event :deactivate do$/;"	f
-deactivate!	app/models/hall.rb	/^    event :deactivate do$/;"	f
-deactivate?	app/models/hall.rb	/^    event :deactivate do$/;"	f
 deactivate	app/models/user.rb	/^    event :deactivate do$/;"	f
+deactivate!	app/models/hall.rb	/^    event :deactivate do$/;"	f
 deactivate!	app/models/user.rb	/^    event :deactivate do$/;"	f
+deactivate?	app/models/hall.rb	/^    event :deactivate do$/;"	f
 deactivate?	app/models/user.rb	/^    event :deactivate do$/;"	f
 destroy	/Users/alegch/projects/progul/app/controllers/web/sessions_controller.rb	/^  def destroy$/;"	f	class:Web
 destroy	app/controllers/web/admin/halls_controller.rb	/^  def destroy$/;"	f	class:Web
@@ -138,8 +136,8 @@ index	/Users/alegch/projects/progul/app/controllers/web/admin/welcome_controller
 index	/Users/alegch/projects/progul/app/controllers/web/welcome_controller.rb	/^  def index$/;"	f	class:Web
 index	app/controllers/web/admin/halls_controller.rb	/^  def index$/;"	f	class:Web
 index	app/controllers/web/admin/lectures_controller.rb	/^  def index$/;"	f	class:Web
-index	app/controllers/web/admin/welcome_controller.rb	/^  def index$/;"	f	class:Web
 index	app/controllers/web/admin/users_controller.rb	/^  def index$/;"	f	class:Web
+index	app/controllers/web/admin/welcome_controller.rb	/^  def index$/;"	f	class:Web
 input	app/inputs/base_picker.rb	/^  def input$/;"	f	class:BasePicker
 input	app/inputs/date_time_picker.rb	/^  def input$/;"	f	class:DateTimePickerInput
 input	app/inputs/date_time_picker_input.rb	/^  def input$/;"	f	class:DateTimePickerInput
@@ -185,10 +183,10 @@ update	app/controllers/web/admin/users_controller.rb	/^  def update$/;"	f	class:
 user	/Users/alegch/projects/progul/app/types/user_sign_in_type.rb	/^  def user$/;"	f	class:UserSignInType
 user	app/models/lecture.rb	/^  belongs_to :user$/;"	f
 user	app/types/user_sign_in_type.rb	/^  def user$/;"	f	class:UserSignInType
+web	app/repositories/hall_repository.rb	/^    scope :web, -> { asc_by_created_at }$/;"	f
 web	app/repositories/hall_repository.rb	/^    scope :web, -> { order("created_at DESC") }$/;"	f
+web	app/repositories/lecture_repository.rb	/^    scope :web, -> { asc_by_created_at }$/;"	f
 web	app/repositories/lecture_repository.rb	/^    scope :web, -> { order("created_at DESC") }$/;"	f
 web	app/repositories/slot_repository.rb	/^    scope :web, -> { order("start_time DESC") }$/;"	f
-web	app/repositories/hall_repository.rb	/^    scope :web, -> { asc_by_created_at }$/;"	f
-web	app/repositories/lecture_repository.rb	/^    scope :web, -> { asc_by_created_at }$/;"	f
 web	app/repositories/slot_repository.rb	/^    scope :web, ->{ asc_by_start_time }$/;"	f
 web	app/repositories/user_repository.rb	/^    scope :web, -> { order("created_at DESC")}$/;"	f

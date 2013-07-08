@@ -4,8 +4,7 @@ class Web::Admin::LecturesController < Web::Admin::ApplicationController
   end
 
   def new
-    @lecture = Lecture.new
-    @lecture = @lecture.becomes(LectureType)
+    @lecture = LectureType.new
   end
 
   def edit

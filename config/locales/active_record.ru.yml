@@ -4,6 +4,7 @@ ru:
       hall: 'Зал'
       slot: 'Слот'
       lecture: 'Доклад'
+      user: 'Пользователь'
     attributes:
       hall:
         name: 'Название'

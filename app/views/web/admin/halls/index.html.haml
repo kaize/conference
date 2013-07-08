@@ -11,7 +11,7 @@
   %thead
     %tr
       %th
-      %th= Hall.human_attribute_name :name
+      %th= ham(:hall, :name)
       %th= t(".count_slots")
   %tbody
     - @halls.each do |hall|

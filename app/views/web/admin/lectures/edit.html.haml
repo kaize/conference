@@ -1,7 +1,3 @@
 %h1= t('.title', name: @lecture.name)
 
 = render 'form'
-
-= link_to t('helpers.links.show'), admin_lecture_path(@lecture)
-\|
-= link_to t('helpers.links.back'), admin_lectures_path
