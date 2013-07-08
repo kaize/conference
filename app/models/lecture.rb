@@ -2,15 +2,14 @@ class Lecture < ActiveRecord::Base
   include LectureRepository
 
   belongs_to :user
+  has_one :slot
 
   validates :name, presence: true
   validates :thesis, presence: true
   validates :user, presence: true
 
-  mount_uploader :presentation, LecturePresentationUploader
-  # validate :presentation, presence: true
-
-  state_machine :state, initial: :new do state :new
+  state_machine :state, initial: :new do
+    state :new
     state :in_schedule
     state :voted
     state :rejected

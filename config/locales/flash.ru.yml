@@ -7,6 +7,11 @@ ru:
             success: "Успешно создан"
           update:
             success: "Успешно обновлен"
+        lectures:
+          create:
+            success: "Успешно создан"
+          update:
+            success: "Успешно обновлен"
       sessions:
         destroy:
           success: 'Вы успешно вышли'

@@ -12,8 +12,9 @@ ru:
           title: 'Новый зал'
         index:
           title: 'Залы'
-          new: 'Новый'
+          new: 'Добавить зал'
           count_slots: 'Количество слотов'
+          name: "Название"
         form:
           timeslots: 'Таймслоты'
           add_slot: 'Добавить слот'
@@ -22,16 +23,18 @@ ru:
           time_from_till: 'Промежутки времени'
           delete: 'Удалить'
         edit:
-          title: 'Редактировать слот'
+          title: 'Редактирование зала %{name}'
       lectures:
         index:
           title: 'Доклады'
-          new: 'Создать'
+          new: 'Добавить доклад'
           name: 'Название'
           user: 'Докладчик'
           state: 'Состояние'
+        new:
+          title: 'Новый доклад'
         edit:
-          title: 'Редактировать доклад'
+          title: 'Редактирование доклада %{name}'
         form:
           cancel: 'Отмена'
   activemodel:

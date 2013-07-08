@@ -16,7 +16,7 @@
   %tbody
     - @lectures.each do |lecture|
       %tr
-        %td= lecture.name
+        %td= link_to lecture.name, edit_admin_lecture_path(lecture)
         %td= lecture.user.name
         %td= lecture.human_state_name
         %td

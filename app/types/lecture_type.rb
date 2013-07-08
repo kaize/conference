@@ -1,5 +1,5 @@
 class LectureType < Lecture
   include BaseType
 
-  permit :name, :thesis, :user_id, :state_event, :presentation
+  permit :name, :thesis, :user_id, :state_event
 end

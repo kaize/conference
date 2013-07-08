@@ -1,8 +1,8 @@
 ---
 ru:
-  success: ''
   web:
     admin:
       lectures:
         new:
           title: ''
+  success: ''

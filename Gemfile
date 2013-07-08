@@ -20,15 +20,16 @@ gem 'therubyracer', platforms: :ruby
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
-# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-# NOTE: странно работает в девелоп среде, не обновляет страницу
+#NOTE: пока не корректно работает с cocoon
 # gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
 gem 'unicorn-rails'
 gem 'airbrake'
-gem 'usefull_scopes'
+
+#NOTE: запилить поддерку rails 4
+# gem 'usefull_scopes'
 gem 'twitter-bootstrap-rails'
 
 gem 'pg'
@@ -43,7 +44,6 @@ gem 'term-ansicolor'
 gem 'russian'
 gem 'cocoon', :git => 'git://github.com/nathanvda/cocoon'
 gem 'select2-rails'
-gem 'carrierwave'
 
 group :development do
   gem 'guard-minitest'

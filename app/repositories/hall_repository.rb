@@ -1,9 +1,7 @@
 module HallRepository
   extend ActiveSupport::Concern
 
-  include UsefullScopes
-
   included do
-    scope :web, -> { asc_by_created_at }
+    scope :web, -> { order("created_at DESC") }
   end
 end

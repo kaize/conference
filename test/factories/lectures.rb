@@ -5,6 +5,5 @@ FactoryGirl.define do
     name { generate :string }
     thesis { generate :string }
     user
-    presentation { generate :image }
   end
 end

@@ -5,13 +5,11 @@ ru:
       slot: 'Слот'
       lecture: 'Доклад'
   attributes:
-    hall:
-      name: 'Название'
+    name: "Название"
     slot:
       start_time: 'Время начала'
       finish_time: 'Время конца'
     lecture_type:
-      name: 'Название'
       thesis: 'Тезис'
       user: 'Докладчик'
       presentation: 'Презентация'
