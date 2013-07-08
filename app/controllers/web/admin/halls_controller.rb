@@ -19,7 +19,7 @@ class Web::Admin::HallsController < Web::Admin::ApplicationController
       f(:success)
       redirect_to edit_admin_hall_path(@hall)
     else
-      f(:errror)
+      f(:error, now: true)
       render :new
     end
   end
@@ -31,7 +31,7 @@ class Web::Admin::HallsController < Web::Admin::ApplicationController
       f(:success)
       redirect_to edit_admin_hall_path(@hall)
     else
-      f(:error)
+      f(:error, now: true)
       render :edit
     end
   end

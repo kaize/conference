@@ -1,10 +1,4 @@
 ---
 ru:
-  web:
-    admin:
-      lectures:
-        new:
-          title: ''
-      users:
-        form:
-          cancel: ''
+  errror: ''
+  error: ''

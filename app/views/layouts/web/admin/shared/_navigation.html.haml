@@ -1,0 +1,16 @@
+.navbar.navbar-fixed-top.navbar-inverse
+  .navbar-inner
+    .container
+      %a.btn.btn-navbar(data-target=".nav-collapse" data-toggle="collapse")
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      %a.brand(href=root_path)= t('.title')
+      .nav-collapse
+        %ul.nav
+          %li= link_to t('.users'), admin_users_path
+          %li= link_to t('.lectures'), admin_lectures_path
+          %li= link_to t('.halls'), admin_halls_path
+        %ul.nav.pull-right
+          %li= link_to t('.logout'), session_path, :method => :delete
+

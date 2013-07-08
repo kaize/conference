@@ -18,7 +18,7 @@ class Web::Admin::LecturesController < Web::Admin::ApplicationController
       f(:success)
       redirect_to edit_admin_lecture_path(@lecture)
     else
-      f(:errror)
+      f(:error, now: true)
       render :new
     end
   end
@@ -30,7 +30,7 @@ class Web::Admin::LecturesController < Web::Admin::ApplicationController
       f(:success)
       redirect_to edit_admin_lecture_path(@lecture)
     else
-      f(:error)
+      f(:error, now: true)
       render :edit
     end
   end

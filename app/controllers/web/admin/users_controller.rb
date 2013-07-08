@@ -18,7 +18,7 @@ class Web::Admin::UsersController < Web::Admin::ApplicationController
       f(:success)
       redirect_to edit_admin_user_path(@user)
     else
-      f(:error)
+      f(:error, now: true)
       render :new
     end
   end
@@ -30,7 +30,7 @@ class Web::Admin::UsersController < Web::Admin::ApplicationController
       f(:success)
       redirect_to edit_admin_user_path(@user)
     else
-      f(:error)
+      f(:error, now: true)
       render :edit
     end
   end
