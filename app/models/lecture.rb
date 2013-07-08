@@ -4,6 +4,10 @@ class Lecture < ActiveRecord::Base
   belongs_to :user
   has_one :slot
 
+  validates :name, presence: true
+  validates :thesis, presence: true
+  validates :user, presence: true
+
   state_machine :state, initial: :new do
     state :new
     state :in_schedule

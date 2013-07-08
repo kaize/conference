@@ -4,6 +4,8 @@ class Hall < ActiveRecord::Base
   has_many :slots, -> { order "start_time DESC" }
   accepts_nested_attributes_for :slots, allow_destroy: true
 
+  validates_associated :slots
+
   state_machine :state, initial: :active do
     state :active
     state :inactive
