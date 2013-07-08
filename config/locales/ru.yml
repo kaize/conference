@@ -42,6 +42,8 @@ ru:
           title: 'Новый пользователь'
         edit:
           title: 'Редактирование %{first_name} %{last_name}'
+        form:
+          cancel: "Отмена"
   activemodel:
     errors:
       models:

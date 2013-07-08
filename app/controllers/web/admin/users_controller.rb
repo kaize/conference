@@ -4,11 +4,12 @@ class Web::Admin::UsersController < Web::Admin::ApplicationController
   end
 
   def new
-    @user = User.new
+    @user = CreateAdminUserType.new
   end
 
   def edit
     @user = User.find params[:id]
+    @user = @user.becomes(EditAdminUserType)
   end
 
   def create
