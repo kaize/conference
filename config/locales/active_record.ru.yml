@@ -8,7 +8,9 @@ ru:
     attributes:
       hall:
         name: 'Название'
+        state_event: 'Смена состояния'
       slot:
+        lecture: 'Доклад'
         start_time: 'Время начала'
         finish_time: 'Время конца'
       lecture:
@@ -17,6 +19,7 @@ ru:
         user: 'Докладчик'
         presentation: 'Презентация'
         state: 'Состояние'
+        state_event: 'Смена состояния'
       user:
         first_name: 'Имя'
         password_confirmation: 'Подтверждение пароля'
