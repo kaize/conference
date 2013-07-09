@@ -5,6 +5,8 @@ module UserRepository
 
   included do
     scope :web, -> { order("created_at DESC")}
-    scope :activated, -> { where state: :active }
+    state_machine.states.each do |s|
+      scope s.name, -> { where(state: s.name) }
+    end
   end
 end

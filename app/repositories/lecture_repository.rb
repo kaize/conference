@@ -5,7 +5,9 @@ module LectureRepository
 
   included do
     scope :web, -> { order("created_at DESC") }
-    scope :scheduled, -> { where(state: :in_schedule) }
+    state_machine.states.each do |s|
+      scope s.name, -> { where(state: s.name) }
+    end
   end
 end
 

@@ -1,5 +1,4 @@
 class User < ActiveRecord::Base
-  include UserRepository
   extend Enumerize
 
   has_secure_password
@@ -21,4 +20,7 @@ class User < ActiveRecord::Base
       transition [:active] => :inactive
     end
   end
+
+  #NOTE include after state_machine for scopes generate
+  include UserRepository
 end

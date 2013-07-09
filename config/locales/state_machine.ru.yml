@@ -5,13 +5,13 @@ ru:
         state:
           states:
             in_schedule: 'В программе'
-            new: 'Новый'
+            in_approve: 'На подтверждении'
             voted: 'На голосовании'
             rejected: 'Отклонен'
           events:
-            move_to_schedule: "В расписание"
-            move_to_voting: "В голосование"
-            reject: "Запретить"
+            move_to_schedule: 'В расписание'
+            move_to_voting: 'В голосование'
+            reject: 'Запретить'
       hall:
         state:
           states:

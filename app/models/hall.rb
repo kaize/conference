@@ -1,6 +1,4 @@
 class Hall < ActiveRecord::Base
-  include HallRepository
-
   has_many :slots, -> { order "start_time DESC" }
   accepts_nested_attributes_for :slots, allow_destroy: true
 
@@ -18,4 +16,6 @@ class Hall < ActiveRecord::Base
       transition [:active] => :inactive
     end
   end
+  #NOTE: see user.rb
+  include HallRepository
 end
