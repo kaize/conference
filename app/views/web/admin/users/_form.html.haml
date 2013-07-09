@@ -9,7 +9,7 @@
   = f.input :show_as_participant, input_html: { class: 'checkbox' }
   = f.input :admin, input_html: { class: 'checkbox' }
   = f.input :role, include_blank: false, input_html: { class: 'input-block-level' }
-  = f.input :email, input_html: { class: 'span5' }
+  = f.input :email, input_html: { class: 'span5' }, disabled: @user.persisted?
   - if @user.new_record?
     = f.input :password, input_html: { class: 'span5' }
     = f.input :password_confirmation, input_html: { class: 'span5' }

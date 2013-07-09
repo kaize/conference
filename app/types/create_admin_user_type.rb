@@ -7,9 +7,5 @@ class CreateAdminUserType < User
   validates :password_confirmation, presence: true
   validates :first_name, presence: true
   validates :last_name, presence: true
-  validates :city, presence: true
-  validates :company, presence: true
-  validates :position, presence: true
-  validates :about, presence: true
 end
 
