@@ -19,7 +19,7 @@ ru:
             inactive: 'Не активен'
           events:
             activate: 'Активизировать'
-            deactivate: 'Деактивизировать'
+            deactivate: 'Деактивировать'
       user:
         state:
           states:
