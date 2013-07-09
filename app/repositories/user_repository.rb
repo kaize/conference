@@ -1,8 +1,10 @@
 module UserRepository
   extend ActiveSupport::Concern
 
+  include UsefullScopes
+
   included do
     scope :web, -> { order("created_at DESC")}
-    #NOTE: here scopes for User
+    scope :activated, -> { where state: :active }
   end
 end

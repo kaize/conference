@@ -27,8 +27,7 @@ gem 'jbuilder', '~> 1.2'
 gem 'unicorn-rails'
 gem 'airbrake'
 
-#NOTE: запилить поддерку rails 4
-# gem 'usefull_scopes'
+gem 'usefull_scopes', git: 'git://github.com/kaize/usefull_scopes.git'
 gem 'twitter-bootstrap-rails'
 
 gem 'pg'
@@ -37,13 +36,14 @@ gem "less-rails"
 gem 'validates'
 gem 'state_machine'
 gem 'bcrypt-ruby', '~> 3.0.0'
-gem 'simple_form', :git => 'git://github.com/plataformatec/simple_form.git'
+gem 'simple_form', git: 'git://github.com/plataformatec/simple_form.git'
 gem 'virtus'
 gem 'term-ansicolor'
 gem 'russian'
-gem 'cocoon', :git => 'git://github.com/nathanvda/cocoon'
+gem 'cocoon', git: 'git://github.com/nathanvda/cocoon'
 gem 'select2-rails'
-gem 'enumerize', :git => 'git://github.com/brainspec/enumerize'
+gem 'enumerize', git: 'git://github.com/brainspec/enumerize'
+gem 'draper'
 
 group :development do
   gem 'guard-minitest'

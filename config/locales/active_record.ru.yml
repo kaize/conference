@@ -29,7 +29,7 @@ ru:
         city: 'Город'
         about: 'О себе'
         admin: 'Администратор'
-        state_event: 'Событие'
+        state_event: 'Смена состояния'
         show_as_participant: 'Показывать как участника'
         role: 'Роль'
     errors:

@@ -58,6 +58,7 @@ SlotRepository	app/repositories/slot_repository.rb	/^module SlotRepository$/;"	m
 StateEventInput	app/inputs/state_event_input.rb	/^class StateEventInput < SimpleForm::Inputs::CollectionSelectInput$/;"	c
 User	/Users/alegch/projects/progul/app/models/user.rb	/^class User < ActiveRecord::Base$/;"	c
 User	app/models/user.rb	/^class User < ActiveRecord::Base$/;"	c
+UserDecorator	app/decorators/user_decorator.rb	/^class UserDecorator < Draper::Decorator$/;"	c
 UserRepository	/Users/alegch/projects/progul/app/repositories/user_repository.rb	/^module UserRepository$/;"	m
 UserRepository	app/repositories/user_repository.rb	/^module UserRepository$/;"	m
 UserSignInType	/Users/alegch/projects/progul/app/types/user_sign_in_type.rb	/^class UserSignInType$/;"	c
@@ -94,6 +95,7 @@ activate!	app/models/hall.rb	/^    event :activate do$/;"	f
 activate!	app/models/user.rb	/^    event :activate do$/;"	f
 activate?	app/models/hall.rb	/^    event :activate do$/;"	f
 activate?	app/models/user.rb	/^    event :activate do$/;"	f
+activated	app/repositories/user_repository.rb	/^    scope :activated, -> { where state: :active }$/;"	f
 assign_attributes	app/types/base_type.rb	/^  def assign_attributes(attrs = {})$/;"	f	class:BaseType
 authenticate_admin!	/Users/alegch/projects/progul/lib/helpers/auth_helper.rb	/^  def authenticate_admin!$/;"	f	class:AuthHelper
 authenticate_admin!	lib/helpers/auth_helper.rb	/^  def authenticate_admin!$/;"	f	class:AuthHelper
@@ -129,6 +131,7 @@ edit	app/controllers/web/admin/lectures_controller.rb	/^  def edit$/;"	f	class:W
 edit	app/controllers/web/admin/users_controller.rb	/^  def edit$/;"	f	class:Web
 extract	config/initializers/core_ext/hash.rb	/^  def extract(*keys)$/;"	f	class:Hash
 f	/Users/alegch/projects/progul/lib/helpers/flash_helper.rb	/^  def f(key, options = {})$/;"	f	class:FlashHelper
+full_name	app/decorators/user_decorator.rb	/^  def full_name$/;"	f	class:UserDecorator
 hall	app/models/slot.rb	/^  belongs_to :hall$/;"	f
 ham	app/helpers/application_helper.rb	/^  def ham(model, attribute)$/;"	f	class:ApplicationHelper
 human_state_name	app/inputs/state_event_input.rb	/^  def human_state_name$/;"	f	class:StateEventInput
@@ -183,10 +186,7 @@ update	app/controllers/web/admin/users_controller.rb	/^  def update$/;"	f	class:
 user	/Users/alegch/projects/progul/app/types/user_sign_in_type.rb	/^  def user$/;"	f	class:UserSignInType
 user	app/models/lecture.rb	/^  belongs_to :user$/;"	f
 user	app/types/user_sign_in_type.rb	/^  def user$/;"	f	class:UserSignInType
-web	app/repositories/hall_repository.rb	/^    scope :web, -> { asc_by_created_at }$/;"	f
 web	app/repositories/hall_repository.rb	/^    scope :web, -> { order("created_at DESC") }$/;"	f
-web	app/repositories/lecture_repository.rb	/^    scope :web, -> { asc_by_created_at }$/;"	f
 web	app/repositories/lecture_repository.rb	/^    scope :web, -> { order("created_at DESC") }$/;"	f
 web	app/repositories/slot_repository.rb	/^    scope :web, -> { order("start_time DESC") }$/;"	f
-web	app/repositories/slot_repository.rb	/^    scope :web, ->{ asc_by_start_time }$/;"	f
 web	app/repositories/user_repository.rb	/^    scope :web, -> { order("created_at DESC")}$/;"	f
