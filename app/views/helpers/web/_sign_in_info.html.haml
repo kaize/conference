@@ -1,5 +1,0 @@
-- if current_user
-  = t('.logged_as', name: current_user.email)
-  = link_to t('.logout'), session_path, :method => :delete
-- else
-  = link_to t(".login"), new_session_path

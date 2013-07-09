@@ -1,4 +1,9 @@
 ---
 ru:
-  errror: ''
-  error: ''
+  activemodel:
+    errors:
+      models:
+        user_sign_in_type:
+          attributes:
+            email:
+              email: ''

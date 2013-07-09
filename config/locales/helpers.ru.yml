@@ -1,5 +1,8 @@
 ru:
   helpers:
+    submit:
+      user_sign_in_type:
+        create: "Войти"
     links:
       show: 'Показать'
     web:
