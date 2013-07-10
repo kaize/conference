@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130709133832) do
+ActiveRecord::Schema.define(version: 20130710081815) do
 
   create_table "halls", force: true do |t|
     t.string   "name"
@@ -54,6 +54,7 @@ ActiveRecord::Schema.define(version: 20130709133832) do
     t.string   "state"
     t.boolean  "show_as_participant"
     t.boolean  "invisible_lector"
+    t.string   "photo"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree

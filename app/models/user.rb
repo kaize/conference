@@ -23,4 +23,6 @@ class User < ActiveRecord::Base
 
   #NOTE include after state_machine for scopes generate
   include UserRepository
+
+  mount_uploader :photo, UsersPhotoUploader
 end

@@ -44,6 +44,9 @@ gem 'cocoon', git: 'git://github.com/nathanvda/cocoon'
 gem 'select2-rails'
 gem 'enumerize', git: 'git://github.com/brainspec/enumerize'
 gem 'draper'
+gem 'carrierwave'
+gem "fog", "~> 1.3.1"
+gem 'rmagick'
 
 group :development do
   gem 'guard-minitest'

@@ -5,6 +5,9 @@ ru:
       admin_date_time_picker: "%Y-%m-%d %H:%M:%S"
       minutes: "%M"
   current_state: 'Текущее состояние: %{state}'
+  errors:
+    messages:
+      extension_white_list_error: 'Неверный формат!'
   layouts:
     web:
       admin:
