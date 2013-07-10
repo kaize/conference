@@ -1,6 +1,6 @@
 class Web::Admin::HallsController < Web::Admin::ApplicationController
   def index
-    @halls = Hall.web
+    @halls = Hall.web.decorate
   end
 
   def new

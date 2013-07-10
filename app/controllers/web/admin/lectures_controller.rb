@@ -1,6 +1,7 @@
 class Web::Admin::LecturesController < Web::Admin::ApplicationController
   def index
-    @lectures = Lecture.web
+    lectures = Lecture.web
+    @lectures = lectures.decorate
   end
 
   def new

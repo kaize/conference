@@ -17,7 +17,7 @@
     - @lectures.each do |lecture|
       %tr
         %td= link_to lecture.name, edit_admin_lecture_path(lecture)
-        %td= lecture.user.decorate.full_name
+        %td= lecture.user_full_name
         %td= lecture.human_state_name
         %td
           .pull-right.btn-group

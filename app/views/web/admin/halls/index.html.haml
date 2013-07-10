@@ -10,16 +10,13 @@
 %table.table.table-striped
   %thead
     %tr
-      %th
       %th= ham(:hall, :name)
       %th= t(".count_slots")
   %tbody
     - @halls.each do |hall|
-      %tr{ data: { id: hall.id } }
+      %tr
         %td= link_to hall.name, edit_admin_hall_path(hall)
-        %td= hall.slots.count
-        %td
-          .nowrap= l hall.created_at
+        %td= hall.slots_count
         %td
           .pull-right.btn-group
             = link_to edit_admin_hall_path(hall), class: 'btn btn-mini' do
