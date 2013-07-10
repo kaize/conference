@@ -32,6 +32,7 @@ ru:
         state_event: 'Смена состояния'
         show_as_participant: 'Показывать как участника'
         role: 'Роль'
+        invisible_lector: 'Не выводить в списке докладчиков'
     errors:
       messages:
         blank: 'Поле не может быть пустым'

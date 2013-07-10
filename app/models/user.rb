@@ -6,7 +6,7 @@ class User < ActiveRecord::Base
 
   validates :email, uniqueness: true, presence: true, email: true
 
-  enumerize :role, in: [ :lector, :user ], default: :user
+  enumerize :role, in: [ :lector, :user ], default: :user, predicates: {only: :lector}
 
   state_machine :state, initial: :active do
     state :active
