@@ -36,7 +36,7 @@ class Web::Admin::UsersControllerTest < ActionController::TestCase
 
     assert_response :redirect
 
-    user = User.find_by_email @attrs[:email] 
+    user = User.where(@attrs.extract(:first_name)).first
     assert user
   end
 end

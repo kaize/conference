@@ -15,6 +15,7 @@
 //= require twitter/bootstrap
 //= require bootstrap-datetimepicker.min
 // NOTE: найти почему не работает turbolinks
+// FIXME: вытащить все что касается админки в отдельный js
 //= require cocoon
 //= require select2
 //= require_tree .

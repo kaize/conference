@@ -1,8 +1,10 @@
 = simple_form_for [:admin, @lecture], html: { class: 'form-horizontal hall-form' } do |f|
-  = f.input :name, input_html: { class: 'input-block-level' }
-  = f.association :user, collection: User.active.asc_by_last_name.decorate, label_method: :full_name, value_method: :id, as: :choosen_select, input_html: { class: 'input-block-level' }
-  = f.input :state_event, as: :state_event, input_html: { class: 'input-block-level' }
-  = f.input :thesis, as: :text, input_html: { class: 'input-block-level' }
+  = f.input :name, input_html: { class: 'span5' }
+  .row
+    .span5
+      = f.association :user, collection: User.active.asc_by_last_name.decorate, label_method: :full_name, value_method: :id, as: :choosen_select, input_html: { class: 'span5 span-nomargin' }
+  = f.input :state_event, as: :state_event, input_html: { class: 'span5' }
+  = f.input :thesis, as: :text, input_html: {rows: 20, class: 'span7' }
   .form-actions
     = f.button :submit, class: 'btn btn-primary'
     = link_to t('.cancel'), admin_lectures_path, class: 'btn'
